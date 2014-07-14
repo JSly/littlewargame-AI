@@ -105,7 +105,7 @@ if (castles.length >= 1 && houses.length == 0) {
 } 
 //If the building of house 1 fails this is a fall through
 else if (houses.length == 1 && finishedHouses.length == 0 && workers.length == 7) {
-	scope.order("Moveto", workers, houses[0].getX(),houses[0].getY());
+	scope.order("Moveto", workers, {x: houses[0].getX(), y:houses[0].getY()});
 }
 
 // if we have at least one finished house make tower 
