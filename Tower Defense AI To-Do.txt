@@ -1,0 +1,10 @@
+Builds a Tower (or two) at base towards the beginning for defense
+Smarter randomBuildingPosition (more options)
+Moves to new mine after depletion 
+Creates new castle by mine if x distance
+Smarter function to send workers to build towers (or think of a better way to find the enemy)
+Create different Units
+Upgrade Units/New Buildings
+Various Attack methods
+Remove attacking 1 at a time after finding enemy
+Update JS to use JQuery (if possible)
