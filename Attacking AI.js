@@ -72,13 +72,15 @@ $.each(players, function(index, playerNumber) {
 var nearestMineFromCastle = null;
 var nearestMineDistanceFromCastle = 99999;
 
-$.each(mines, function(index, mine) {
-	var dist = Math.pow(mine.getX() - castles[0].getX(), 2) + Math.pow(mine.getY() - castles[0].getY(), 2);
-	if (dist < nearestMineDistanceFromCastle) {
-		nearestMineFromCastle = mine;
-		nearestMineDistanceFromCastle = dist;
-	}
-});
+if (castles.length >= 1) {
+	$.each(mines, function(index, mine) {
+		var dist = Math.pow(mine.getX() - castles[0].getX(), 2) + Math.pow(mine.getY() - castles[0].getY(), 2);
+		if (dist < nearestMineDistanceFromCastle) {
+			nearestMineFromCastle = mine;
+			nearestMineDistanceFromCastle = dist;
+		}
+	});
+}
 
 // order all idle workers to mine from the nearest gold mine
 if (nearestMineFromCastle && idleWorkers.length > 0) {
@@ -88,8 +90,10 @@ if (nearestMineFromCastle && idleWorkers.length > 0) {
 // if the castle is idle, order to make workers up to 7
 if (castles.length >= 1 && !castles[0].getUnitTypeNameInProductionQueAt(1) && workers.length < 7) {
 	scope.order("Train Worker", [castles[0]]);
+
+}
 //After primary base is established (tower/barracks) create workers up to 10
-} else if (castles.length >= 1 && !castles[0].getUnitTypeNameInProductionQueAt(1) && finishedBarracks.length > 0 && workers.length < 10) {
+else if (castles.length >= 1 && !castles[0].getUnitTypeNameInProductionQueAt(1) && finishedBarracks.length > 0 && workers.length < 10) {
 	scope.order("Train Worker", [castles[0]]);
 }
  
@@ -104,7 +108,7 @@ if (castles.length >= 1 && houses.length == 0) {
 	scope.order("Build House", workers, randomBuildingPosition(castles[0].getX(),castles[0].getY()));
 } 
 //If the building of house 1 fails this is a fall through
-else if (houses.length == 1 && finishedHouses.length == 0 && workers.length == 7) {
+else if (houses.length == 1 && finishedHouses.length == 0 && workers.length >= 7) {
 	scope.order("Moveto", workers, {x: houses[0].getX(), y:houses[0].getY()});
 }
 
