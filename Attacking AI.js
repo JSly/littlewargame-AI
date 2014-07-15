@@ -59,14 +59,16 @@ var enemies = scope.getArrayOfPlayerNumbers();
 //Removes all players from 'enemies' that are on your team
 $.each(players, function(index, playerNumber) {
 	var startPosition = scope.getStartLocationForPlayerNumber(playerNumber)
-	$.each(teamCastles, function(index, castle) {
-		var castlePosition = {x:castle.getX(), y:castle.getY()}
-		if (startPosition.x == castle.getX()-1 && startPosition.y == castle.getY()-1) {
-			enemies = jQuery.grep(enemies, function(value) {
-				return value != playerNumber;
-			});
-		}
-	});
+	if (teamCastles.length > 0) {
+		$.each(teamCastles, function(index, castle) {
+			var castlePosition = {x:castle.getX(), y:castle.getY()}
+			if (startPosition.x == castle.getX()-1 && startPosition.y == castle.getY()-1) {
+				enemies = jQuery.grep(enemies, function(value) {
+					return value != playerNumber;
+				});
+			}
+		});
+	}
 });
 
 var nearestMineFromCastle = null;
