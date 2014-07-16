@@ -1,5 +1,4 @@
-Moves to new mine after depletion 
-Creates new castle by mine if x distance
+Clean up code rewrite most logic
 Create different Units
 Upgrade Units/New Buildings
 Various Attack methods
