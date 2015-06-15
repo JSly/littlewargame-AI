@@ -1,1 +1,0 @@
-If multiple themes are used for an implementation and certain elements will be shared among multiple themes, consider creating a global theme and importing it into each of the separate themes.  
