@@ -1,0 +1,272 @@
+/* ie8 rounded corners */
+.ext-ie8 #pageTop {
+	overflow: visible;
+}
+.ext-ie8 #pageTop:before {
+	background: url('../images/ie8_images.png') -225px -300px no-repeat transparent;
+	position: absolute;
+	top: -3px;
+	left: -3px;
+	height: 7px;
+	width: 7px;
+	content: " ";
+}
+.ext-ie8 #pageTop:after {
+	background: url('../images/ie8_images.png') -232px -300px no-repeat transparent;
+	position: absolute;
+	top: -3px;
+	right: -3px;
+	height: 7px;
+	width: 7px;
+	content: " ";
+}
+.ext-ie8 #main:before {
+	background: url('../images/ie8_images.png') -200px -306px no-repeat transparent;
+	position: absolute;
+	bottom: -3px;
+	left: -3px;
+	height: 6px;
+	width: 6px;
+	content: " ";
+}
+.ext-ie8 #main:after {
+	background: url('../images/ie8_images.png') -208px -306px no-repeat transparent;
+	position: absolute;
+	bottom: -3px;
+	right: -3px;
+	height: 6px;
+	width: 6px;
+	content: " ";
+}
+.ext-ie8 .dct_popup #pageTop:before, .ext-ie8 .dct_popup #pageTop:after, .ext-ie8 .dct_popup #main:before, .ext-ie8 .dct_popup #main:after {
+	background-image: none;
+}
+.ext-ie8 #policyActiveSection {
+	overflow: visible;
+}
+.ext-ie8 #leftPanelAreaBody:before {
+	background: url('../images/ie8_images.png') -225px -300px no-repeat transparent;
+	position: absolute;
+	top: -3px;
+	left: -3px;
+	height: 7px;
+	width: 7px;
+	content: " ";
+}
+
+.ext-ie8 #leftPanelAreaBody:after {
+	background: url('../images/ie8_images.png') -232px -300px no-repeat transparent;
+	position: absolute;
+	top: -3px;
+	right: -3px;
+	height: 7px;
+	width: 7px;
+	content: " ";
+}
+.ext-ie8 #leftPanelAreaBody {
+	overflow: visible;
+}
+.ext-ie8 #leftPanelArea:before {
+	background: url('../images/ie8_images.png') -200px -306px no-repeat transparent;
+	position: absolute;
+	bottom: -3px;
+	left: -3px;
+	height: 6px;
+	width: 6px;
+	content: " ";
+}
+.ext-ie8 #leftPanelArea:after {
+	background: url('../images/ie8_images.png') -208px -306px no-repeat transparent;
+	position: absolute;
+	bottom: -3px;
+	right: -3px;
+	height: 6px;
+	width: 6px;
+	content: " ";
+}
+.ext-gecko .x-form-display-field, .ext-strict .ext-ie7 .x-form-display-field {
+	margin-left: 0px;
+	padding: 1px 0px;
+}
+.ext-gecko .x-form-display-field {
+	margin-left: 5px;
+	padding: 1px 0px;
+}
+.ext-gecko #innerheader .x-form-display-field, .ext-strict .ext-ie7 #innerheader .x-form-display-field {
+	margin-left: 8px;
+}
+.ext-gecko .x-form-field-trigger-wrap .x-form-text {
+	padding-right: 5px;
+}
+.ext-gecko #quickSearch .x-form-field-trigger-wrap .x-form-text {
+	padding-right: 1px;
+}
+
+/* buttons */
+.ext-ie8 .g-btn {
+	position: relative;
+}
+
+.ext-ie8 .g-hyperlink  > a{
+	float: none;	
+}
+.ext-ie8 .g-btn a {
+	background: transparent 0 -350px repeat-x url('../images/ie8_images.png');
+	border: 0;
+	padding: 4px 9px;
+	padding-right: 9px;
+	border: 0;
+	height: 26px;
+	overflow: visible;
+}
+
+.ext-ie8 .g-standard a:after, .ext-ie8 .g-search a:after, .ext-ie8 .g-cancel a:after,  .ext-ie8 .g-green a:after,  .ext-ie8 .g-white a:after,
+ .ext-ie8 .g-black a:after, .ext-ie8 .g-gray a:after, .ext-ie8 .g-orange a:after, .ext-ie8 .g-red a:after,
+ .ext-ie8 .g-blue a:after,  .ext-ie8 .g-lightBlue a:after, .ext-ie8 .g-lightGreen a:after, .ext-ie8 .g-closeIcon a:after {
+	background: url('../images/ie8_images.png') 0 -300px no-repeat transparent;
+	position: absolute;
+	top: 0;
+	right: -3px;
+	height: 26px;
+	width: 7px;
+	content: " ";
+}
+
+.ext-ie8 .g-btn a:hover,
+.ext-ie8 .g-btn a:focus {
+	background: transparent 0 -400px repeat-x url('../images/ie8_images.png');
+}
+
+.ext-ie8 .g-btn a:hover:after,
+.ext-ie8 .g-btn a:focus:after {
+	background-position: -25px -300px;
+}
+
+.ext-ie8 .g-btn a:active {
+	background: transparent 0 -450px repeat-x url('../images/ie8_images.png');
+}
+
+.ext-ie8 .g-btn a:active:after {
+	background-position: -50px -300px;
+}
+
+.ext-ie8 .g-loneIcon a, .ext-ie8 .g-loneIcon a:hover, .ext-ie8 .g-loneIcon a:active {
+	border: none;
+	background: transparent none;
+	-webkit-box-shadow: none;
+	padding: 1px;
+}
+
+.ext-ie8 .g-hyperlink a, .ext-ie8 .g-hyperlink a:hover, .ext-ie8 .g-hyperlink a:active { 
+	background: transparent none; 
+	padding: 0px;
+}
+
+/*x-btn found on file upload control*/
+
+.ext-gecko #uploadFileCmp table {
+    height: 100%;
+}
+
+.ext-ie8 #uploadFileCmp table.x-form-file-btn:hover,
+.ext-ie8 #uploadFileCmp table.x-form-file-btn:focus {
+    background: transparent 0 -400px repeat-x url('../images/ie8_images.png');
+}
+
+.ext-ie8 #uploadFileCmp table.x-btn{
+    position: relative;
+    background: transparent 0 -350px repeat-x url('../images/ie8_images.png');
+    border: 0;
+    padding: 4px 9px;
+    border: 0;
+    height: 26px;
+    overflow: visible;
+	font-family: 'Trebuchet MS', verdana, arial, helvetica, sans-serif;
+}
+.ext-ie8 #uploadFileCmp table.x-btn button {
+	padding: 0px 7px;
+}
+.ext-ie8 #uploadFileCmp table.x-btn button:after {
+	background: url('../images/ie8_images.png') 0 -300px no-repeat transparent;
+	position: absolute;
+	top: 0;
+	right: -3px;
+	height: 26px;
+	width: 7px;
+	content: " ";
+}
+
+
+/* search */
+
+.ext-ie8 #quickSearch #id_quickSearch {
+	background-color: #4e4e4e;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#696969', endColorstr='#4e4e4e',GradientType=0 ); /* IE6-8 */
+}
+.ext-ie8 #quickSearch #id_quickSearch:hover {
+	background-color: #cfcfcf;
+	color: #515151;
+	filter: none;
+}
+.ext-ie8 #quickSearch img.x-form-trigger {
+	background: url('../images/trigger_header_ie8.gif') no-repeat;
+}
+
+/* login page */
+
+.ext-ie8 #logonFields .g-btn a {
+	background-color: transparent;
+	border-width: 0px;
+	height: 30px;
+}
+
+.dct_login.ext-ie8 #main:before, .dct_login.ext-ie8 #main:after {
+	background-image: none;
+}
+
+
+
+/*notifications page*/
+.ext-ie8 #showEntireDatabaseCheckBoxGroupGrp,
+.ext-ie8 #showEntireDatabaseCheckBoxGroupGrp .x-column-inner, 
+.ext-ie8 #showEntireDatabaseCheckBoxGroupGrp .x-column-inner .x-column {
+	overflow: visible;
+}
+
+
+.ext-ie8 #entitiesRadioGroup, 
+.ext-ie8 #entitiesRadioGroup .x-column-inner, 
+.ext-ie8 #entitiesRadioGroup .x-column{
+	overflow: visible;
+}
+
+/*paging grid toolbars*/
+.ext-ie8 .x-toolbar DIV.xtb-text{
+	padding-left: 10px;
+}
+
+/*risk detail page*/
+
+.ext-ie8 .RiskDetail_body .acrossLayout .x_Width40
+{
+	width: auto;		
+}
+
+/*Billing Account*/
+.ext-ie8 #addNotes {
+	margin-left: -5px;
+}
+
+/*ff textareas*/
+.ext-gecko .dct_taskManagement textarea.x-form-field {
+	height: 16px;
+}
+
+/*Loading Message*/
+.ext-ie8 #loadingMessage {
+	border: none;
+	width: 37px;
+	height: 37px;
+	padding: 8px 0 0 8px;
+	background: transparent url("../images/loadingIndicatorBg.png") no-repeat -5px -5px;
+}

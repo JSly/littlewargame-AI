@@ -1,0 +1,8 @@
+table {
+	border-collapse: collapse;
+	/*background-color: #ffffff;*/
+}
+.action {
+	clear: left;
+}
+/* [kellyke] what is the purpose of these styles? */

@@ -1,0 +1,336 @@
+﻿#requiredTxt{
+	/* [kellyke Oct 26, 10] feel free to remove the display:none if someone feels it's
+		necessary.  I'm removing it (silently) since it's in the way, customers frequently
+		have it removed, people typically know what asterisks by fields mean, we have validation
+		that tells the user if there are required fields that still need to be filled out,
+		and it's been removed from other DCT products (such as personal auto base).  */
+	/* [kellyke Nov 23, 10] QA thought it was necessary.  removing display:none */
+	/* display:none; */
+	
+	margin: 10px 0px 10px 0px;
+	padding: 3px 0px 3px 0px;
+	font-style: italic;
+}
+#requiredTxt .ast{
+	color: #FF0000;
+	font-size: 1.5em;
+}
+
+/* don't show required indicators on fields within containers where Read-Only Content = true */
+.isReadOnlyContent .required {display:none;}
+
+/* ############################### */
+/* Custom New Quote Styles (Extended) */
+/* ############################### */
+
+
+/* ############################### */
+/* Custom Create New Account Styles */
+/* ############################### */
+.CreateNewBillAccount #diary, .CreateNewBillAccount #pageNav, .AccountPlanSetup #diary, .AccountPlanSetup #pageNav UL, .PolicyPlanSetup #diary, .PolicyPlanSetup #pageNav UL, .RenewalPlanSetup #diary, .RenewalPlanSetup #pageNav UL, .CreateNewBillAccount .x_BillAccountPartyDescription{
+	display: none;
+}
+.CreateNewBillAccount LI{ /*This is a temp fix to get rit of the diary div that is writing out a dot at the top of the page*/
+	list-style-type: none;
+}
+.AddParty .groupAction{
+	margin: 0px 0px 0px 0px;
+	clear: both;
+}
+.AddParty .groupAction li{
+	padding: 0px 0px 0px 12px;
+	margin-right: 10px;
+}
+.AddParty .groupAction li a{
+	background: none;
+	padding: 6px 18px 6px 6px;
+	color: #64a055;
+	text-decoration: underline;
+}
+
+
+/*Start Create New Bill Account Styles */
+.CreateNewBillAccount #diary, .CreateNewBillAccount #pageNav UL, .AccountPlanSetup #diary, .AccountPlanSetup #pageNav UL, .PolicyPlanSetup #diary, .PolicyPlanSetup #pageNav UL, .RenewalPlanSetup #diary, .RenewalPlanSetup #pageNav UL, .CreateNewBillAccount .x_BillAccountPartyDescription, .MPRCollection #pageNav UL{
+	display: none;
+}
+#t_4_1_tableDivId H2{
+	display: none;
+}
+#t_4_1_tableDivId table{
+	width: 100%;
+}
+#t_4_1_tableDivId table td{
+	padding-left: 0px;
+}
+
+/* Interview Page targeted styles */
+.formTable TD, .formTable TH{
+	/* padding: 0px 0px 0px 5px; */
+	text-align: left;
+}
+
+.formTable TD.x_TextAlignCenter, .formTable TH.x_TextAlignCenter{
+    text-align: center;
+}
+.formTable TD.x_TextAlignCenter > div, .formTable TH.x_TextAlignCenter > div{
+    width: 100%;
+}
+
+.formTable TD.x_TextAlignRight, .formTable TH.x_TextAlignRight {
+    text-align: right;
+}
+.formTable TD.x_TextAlignRight > div, .formTable TH.x_TextAlignRight > div {
+    width: 100%;
+}
+
+.formTable TD.x_AlignCenter, .formTable TH.x_AlignCenter{
+    text-align:center;
+}
+.formTable TD.x_AlignCenter > div, .formTable TH.x_AlignCenter > div{
+    width: 100%;
+}
+
+.formTable TD.x_AlignRight, .formTable TH.x_AlignRight {
+    text-align:right;
+}
+.formTable TD.x_AlignRight > div, .formTable TH.x_AlignRight > div {
+    width: 100%;
+}
+
+
+/* TRANSACT Page Styles */
+.TransACT TABLE .mainBody, .TransACT .mainBody TR, .TransACT .mainBody TD{
+    padding: 1px;
+    margin: 1px;
+}
+.TransACT .thinBorder TR, .TransACT .thinBorder TD{
+    padding: 2px;
+    margin: 1px;
+}
+
+
+/* Start select billing account options */
+/* ############################### */
+/* Custom Billing Plan Styles */
+/* ############################### */
+.AccountPlanSetup .x_i9{
+	margin-top: 30px;
+}
+.AccountPlanSetup LI{ /*This is a temp fix to get rit of the diary div that is writing out a dot at the top of the page*/
+	list-style-type: none;
+}
+.AccountPlanSetup .downBeforeFormLabel{
+	text-align: left;
+	font-weight: bold;
+}
+.AccountPlanSetup .x_i10 .action li a{
+	color: #525552;
+}
+
+/* ############################### */
+/* Custom Policy Plan Setup Styles */
+/* ############################### */
+.PolicyPlanSetup .x_Section10 .groupAction{
+	clear: both;
+}
+.PolicyPlanSetup LI{ /*This is a temp fix to get rit of the diary div that is writing out a dot at the top of the page*/
+	list-style-type: none;
+}
+.PolicyPlanSetup .downBeforeFormLabel{
+	text-align: left;
+	width: 218px;
+}
+.PolicyPlanSetup .x_i7{
+	clear: left;
+}
+.PolicyPlanSetup .x_i16{
+	clear: both;
+}
+.PolicyPlanSetup .x_i10 .action li a{
+	color: #525552;
+}
+.PolicyPlanSetup .x_Section10 .groupAction li{
+	padding: 0px 0px 0px 12px;
+	margin-right: 10px;
+}
+.PolicyPlanSetup .x_Section10 .groupAction li a{
+	background: none;
+	padding: 6px 18px 6px 6px;
+	color: #64a055;
+	text-decoration: underline;
+}
+.PolicyPlanSetup .x_navDelete{
+	margin-top: -10px;
+}
+
+/* ############################### */
+/* Custom Renewal Plan Setup Styles */
+/* ############################### */
+.RenewalPlanSetup .x_Section10 .groupAction{
+	clear: both;
+}
+.RenewalPlanSetup LI{ /*This is a temp fix to get rit of the diary div that is writing out a dot at the top of the page*/
+	list-style-type: none;
+}
+.RenewalPlanSetup .downBeforeFormLabel{
+	text-align: left;
+	width: 218px;
+}
+.RenewalPlanSetup .x_i7{
+	clear: left;
+}
+.RenewalPlanSetup .x_i16{
+	clear: both;
+}
+.RenewalPlanSetup .x_i10 .action li a{
+	color: #525552;
+}
+.RenewalPlanSetup .x_Section10 .groupAction li{
+	padding: 0px 0px 0px 12px;
+	margin-right: 10px;
+}
+.RenewalPlanSetup .x_Section10 .groupAction li a{
+	background: none;
+	padding: 6px 18px 6px 6px;
+	color: #64a055;
+	text-decoration: underline;
+}
+.RenewalPlanSetup .x_navDelete{
+	margin-top: -10px;
+}
+
+
+/* ############################### */
+/* Custom Party Styles	*/
+/* ############################### */
+
+/* Hide left panel on main search page */
+.Search #leftPanelArea { display: none; }
+
+.AddParty .radioGroup input{
+	width: auto;
+}
+.AddParty .acrossLayout .acrossFieldGroup{ /* Remove some spacing from the field groups*/
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.AddParty #information{ /* Hide for the add party section*/
+	display: none;
+}
+.AddParty .x_navDelete{
+	width: 130px;
+	float: left;
+	margin: 4px 0px 0px 0px;
+}
+
+/* Party Tools */
+.partyGroupIndicator { border: solid 2px #71C139; }
+
+#partyTools {
+	position: absolute; margin:auto; padding:auto;
+	background: #f0f3f3; border:solid 1px #777777; 
+}
+#partyTools.toolsAbove {border-bottom:none;}
+#partyTools.toolsRight {border-left:none;}
+#partyButtonWrapper {border:solid 2px #f0f3f3;}
+#partyTools > .g-btn { height:16px; margin-right:0px; }
+#partyTools > .g-btn > a { height:16px; float:none; text-decoration:none; }
+#partyTools > .g-loneIcon{margin-right:0px;}
+#partyTools > .g-loneIcon .g-btn-m{ padding-top:0px; }
+
+/* Single Page Interviews - this class will be active when only 1 page is enabled in a pageset) */
+#pageNav.onePageOnly{display:none;}
+
+#pageNav li a.x_LHPVehicleLink{
+	float:none;
+}
+#innerrightpanel{
+    width: 220px;
+    height: 100%;
+    float: right;
+    padding: 10px 0px 10px 5px;
+    margin: 0px 0px 0px 10px;
+    position: relative;               
+}
+.outerleftpanel{
+    clear: both;
+}
+.outerleftpanel .innerleftpanel{
+    margin: 10px 0px 10px 0px;
+    width: 190px;
+    padding: 10px 0px 10px 10px;
+	clear:both;
+}
+
+#innerleftpanel{
+    width: 220px;
+    height: 100%;
+    float: left;
+    padding: 10px 5px 10px 0px;
+    margin: 0px 10px 0px 0px;
+    position: relative;                
+}
+.fieldCaptionIcon{
+	float:left;
+	margin-right:3px;
+}
+.labelWithIcon{
+	width:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	margin-top:-1px;
+	min-height:16px;
+}
+.labelWithIcon>a{
+	display:block;
+	float:left;
+	width:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	min-height:16px;
+}
+
+.labelWithIcon>a>img, .labelWithIcon>img{
+	float:none;
+	margin-bottom:-4px;
+}
+
+div#interviewList{
+	width:100%;
+	margin-right:0px;
+}
+
+.interviewGrid{
+	width:100%;
+	margin-right:0px;
+}
+
+
+/* Styles for login page after timeout */
+#Logon{
+	float:left;
+	margin-top: 10px;
+	width: 400px;
+	height: 180px;
+	font-weight: bold;
+}
+#logonFields { margin: 65px 0px 0px 30px; }
+.logonTextFieldGroup { padding-bottom: 5px; float:left;}
+.logonTextFieldGroup label{
+	display:block;
+	float:left;
+	width:80px;
+}
+#username, #password { width:120px; }
+#rememberGroup { padding-left:80px; float:left;}
+#logonFields .g-btn { padding-top: 10px; float:left; clear:left}
+#logonFields .g-btn-img-left { display: none; }
+#logonFields .g-btn .g-btn-m { padding:0px 7px; }
+#NewAgentsInformation { display: none; }
+
+#pageAdditionalActions { float: left;}
+#resetPrintJobDetaulsA { float: left; }

@@ -1,0 +1,89 @@
+#associtationgroup, #banner, #footer, #pageTop{ display: none; }
+
+#wrapper{
+	width: 728px;
+	height: 382px;
+	margin:125px auto 0px auto;
+	position:relative;
+}
+#formContent{
+	height:350px;
+}
+#Logon{
+	position:absolute;
+	top:120px;
+	left:130px;
+	width: 250px;
+	font-weight: bold !important;
+}
+.logonTextFieldGroup{
+	padding-bottom:5px;
+	float:left;
+}
+.logonTextFieldGroup label{
+	display:block;
+	float:left;
+	width:80px;
+}
+#username, #password{
+	width:120px;
+}
+#rememberGroup{
+	padding-left:80px;
+	float:left;
+}
+#rememberCheckBoxGroupGrp, #rememberCheckBoxGroupGrp div{
+	width:330px;
+	overflow:visible;
+}
+#RememberMePrivacyNotice {
+	color:red;
+	position:absolute;
+	top:15px;
+	left:14px;
+}
+#logonFields .g-btn{
+	margin: 10px 0px 0px 80px;
+	float:left;
+}
+#logonFields .g-btn .g-btn-m{
+	padding:0px 7px;
+}
+#NewAgentsInformation{
+	position:absolute;
+	top:150px;
+	left:445px;
+}
+#NewAgentsInformation a{
+	display:block;
+	width: 129px;
+	height: 17px;
+	padding: 5px 0px 2px 30px;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 0px;
+	top: -120px;
+	left: -128px;
+	position: relative;
+}
+.boldText{
+	font-weight: bold !important;
+}
+/* Begin - login screen changes */
+.blueText {
+	color: #00a4e4;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight:bold;
+}
+#logoWording {
+	font-size: 16px;
+	position:relative;
+	top:75px; /* MLM - Adding Disclaimer */
+	left:212px;
+	float:left;
+}
+#signInWording {
+	padding-bottom:5px;
+}
+/* End - login screen changes */

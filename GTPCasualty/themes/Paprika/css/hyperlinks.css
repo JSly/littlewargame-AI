@@ -1,0 +1,30 @@
+.g-hyperlink > a {
+	background: none;
+	padding: 3px 0px;
+	border: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.g-hyperlink > a:hover, .g-hyperlink > a:focus, .g-hyperlink > a:active {
+	background: none;
+	color: #0000BB;
+}
+.g-hyperlink .g-btn-text{ 
+	color: #000000;
+	text-decoration: underline;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	padding-left: 5px;
+}
+.hyperlink li{
+	background-image: none;
+}
+.hyperlink li a{
+	background-image: none;
+	color: #8f2f52;
+}
+.hyperlink li a:link, .hyperlink li a:visited, .hyperlink li a:active {
+	color: #8f2f52;
+}

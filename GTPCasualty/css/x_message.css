@@ -1,0 +1,20 @@
+#messageBody{
+	clear:both;
+	word-wrap: break-word;
+	width: 99%;
+	margin-left: 5px;
+	margin-right: 5px;	
+}
+
+div.downFieldGroup div.downFormField{
+	/* fields and labels need to have the same padding. */
+	padding: 6px 10px 6px 0px;
+}
+
+#messageToLabel, #messageFromLabel, #messageLabel{ 	
+	margin-left: 3px;
+}
+
+.g-btn-bar {
+    padding-left: 3px; padding-bottom: 10px; 
+}

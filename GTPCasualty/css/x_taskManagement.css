@@ -1,0 +1,39 @@
+#pageTop{
+	margin-bottom:15px;
+}
+
+#QueueAdminContainer{
+	width:100%;
+}
+.basicOptionGroup{
+	width:100%;
+	overflow:hidden;
+}
+.basicOptionGroup select{
+	float:left;
+}
+#adminMoreOptions > .g-btn{
+	margin-top:13px;
+}
+#adminSearchFilterFor{
+	width:120px;
+}
+#adminFilter { margin-left: 10px; }
+#queueItemSelector , #dueItemSelector, #userItemSelector, #statusItemSelector, #categoryItemSelector, #createdLabel, #adminMoreOptions
+ { width: 100%; float:left; }
+#queueLabel, #dueLabel, #userLabel,  #statusLabel, #categoryLabel, #createdLabel, #referenceLabel
+{ padding-left: 5px; padding-top: 5px; width:80px; }
+#adminQueueEntityIdDisplay, #adminFilterDisplay, #adminUserIdsDisplay, #adminStatusDisplay, #adminCategoryDisplay, #adminCreatedOnDisplay
+{ overflow: auto;} 
+#taskQueueSearch, #taskDueSearch, #taskUserSearch , #taskStatusSearch, #taskCategorySearch , #taskCreatedOnSearch
+{ padding-left: 5px; }
+#adminSearchFilterForCaption { width:5px; }
+#showTasksLink { padding-left: 5px; padding-bottom: 5px; padding-top: 5px;}
+#adminMassReassign { padding-left: 5px; padding-bottom: 5px; }
+.td-startingDate { width: 120px; }
+.td-endingDate { width: 120px; }
+.downFormField{width:auto}
+#queueItemSelector  .downFormField, #dueItemSelector  .downFormField, #userItemSelector  .downFormField, 
+#statusItemSelector  .downFormField, #categoryItemSelector  .downFormField , #createdOnItemSelector  .downFormField
+{ width:auto }
+#adminMoreOptions  .downFormField{width:20%}

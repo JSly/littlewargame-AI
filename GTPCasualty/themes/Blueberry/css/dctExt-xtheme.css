@@ -1,0 +1,77 @@
+/*!
+ * Ext JS Library 3.3.0
+ * Copyright(c) 2006-2010 Ext JS, Inc.
+ * licensing@extjs.com
+ * http://www.extjs.com/license
+ */
+/**
+ * GridFilters gray Styles
+ **/
+.ux-filtered-column.sort-asc .x-grid3-sort-icon {
+	background-image: url(../images/Extjs/menu/sort_filtered_asc.gif) !important;
+}
+
+.ux-filtered-column.sort-desc .x-grid3-sort-icon {
+	background-image: url(../images/Extjs/menu/sort_filtered_desc.gif) !important;
+}
+
+.ux-gridfilter-text-icon {
+	background-image: url(../images/Extjs/menu/find.png) !important;
+}
+
+/**
+ * RangeMenu Styles
+ **/
+.ux-rangemenu-gt {
+	background-image: url(../images/Extjs/menu/greater_than.png) !important;
+}
+
+.ux-rangemenu-lt {
+	background-image: url(../images/Extjs/menu/less_than.png) !important;
+}
+
+.ux-rangemenu-eq {
+	background-image: url(../images/Extjs/menu/equals.png) !important;
+}
+
+/**
+* column tree styles 
+**/
+.x-tree-headers {
+	background: #f9f9f9 url(../images/Extjs/grid/grid3-hrow.gif) repeat-x 0 bottom;
+}
+
+.sliderTick {
+	background: url(../images/Extjs/slider/ticks.gif) no-repeat top center;
+}
+
+body.x-body-masked .x-window-plain .x-window-mc {
+    background-color: #F4F4F4;
+}
+
+/* changed form font label colors to ASW color */
+.x-form-cb-label {
+    color: #868686;
+    font-size: 9px;
+    font-weight: 600;
+    margin-left: 4px;
+    position: relative;
+    top: 2px;
+}
+/* changes to background text area in forms to ASW color */
+.x-form-text, textarea.x-form-field {
+    background: #ececec repeat-x scroll 0 0 transparent;
+    border: 1px solid;
+    padding: 1px 3px;
+}
+.x-form-text, textarea.x-form-field {
+    background-color: #FDF7EB;
+    border-color: #C1C1C1;
+    margin-left: 5px;
+}
+/**
+* tab styles 
+**/
+.x-tab-invalid {
+	background-image: url(../images/Extjs/form/exclamation.gif) !important;
+}

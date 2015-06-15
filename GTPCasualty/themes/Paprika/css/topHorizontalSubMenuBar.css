@@ -1,0 +1,89 @@
+.ruleset_topNav #pageNav, .ruleset_topNav #relatedActions {
+	overflow: hidden;
+	float: left;
+	width: 100%;
+	border-top: 2px solid #4C4C4C;
+	background-color: #C0C0C0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	min-height: 29px;
+	left: 0px;
+	top: 45px;
+}
+.ruleset_topNav #relatedActions {
+	background-color: #F0F0F0;
+}
+.ruleset_topNav #pageNav ul, .ruleset_topNav #relatedActions ul {
+	margin: 0;
+	padding: 0;
+	float: left;
+	font-family: 'Trebuchet MS' , verdana, arial, helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	display: block;
+}
+.ruleset_topNav #pageNav ul li, .ruleset_topNav #relatedActions ul li {
+	float: left;
+	list-style: none outside none;
+	position: relative;
+	padding: 1px 0px 1px 0px;
+	border-right: 2px groove #DBDBDB;
+}
+.ruleset_topNav #relatedActions ul li {
+	color: #FFFFFF;
+	background-image: none;
+	border-right: 2px groove #C0C0C0;
+}
+
+.ruleset_topNav #pageNav ul > li, .ruleset_topNav #relatedActions ul > li{
+	height: 25px;
+	display: inline;
+	list-style: none;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	overflow: visible;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+.ruleset_topNav #pageNav ul li a, .ruleset_topNav #relatedActions ul li a{
+	float: left;
+	color: #4C4C4C;
+	text-decoration: none;
+	line-height: 25px;
+	padding: 0px 2px;
+	white-space: normal;
+}
+.ruleset_topNav #relatedActions li:hover{
+	background-image: none;
+}
+.ruleset_topNav #relatedActions li:hover a{
+	background: -webkit-linear-gradient(top, #FFFFFF 0%, #D7D7D7 100%); /* Chrome10+,Safari5.1+ */
+	background: -ms-linear-gradient(top,  #FFFFFF 0%,#D7D7D7 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #FFFFFF 0%,#D7D7D7 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#D7D7D7'); /* for IE */
+}
+.ruleset_topNav #pageNav li.activeTab{
+	filter: none \; /* turn off filters in IE9 to avoid the IE9 bug */
+}
+.ruleset_topNav #pageNav li.activeTab a{
+	background: #FFFFFF;
+	border: 1px solid #4C4C4C;
+	line-height: 23px;
+}
+.ruleset_topNav #pageNav li:hover {
+	background: -webkit-linear-gradient(top, #FFFFFF 0%, #C0C0C0 100%); /* Chrome10+,Safari5.1+ */
+	background: -ms-linear-gradient(top,  #FFFFFF 0%,#C0C0C0 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #FFFFFF 0%,#C0C0C0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#C0C0C0'); /* for IE */
+}
+.ruleset_topNav #pageNav li:hover a span{
+	text-decoration: none;
+}
+
+.ruleset_topNav #subactiongroup li a			{ color: #386CAD; }
+.ruleset_topNav #subactiongroup li:hover		{ background: #ebf4ff; }
+.ruleset_topNav #subactiongroup li.activeTab	{ background: #DBEBFD; }

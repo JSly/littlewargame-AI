@@ -1,0 +1,15 @@
+.rateMsgList li.rateFlag_comment{ background: transparent url("../images/icons/information.png") no-repeat left top; }
+.rateMsgList li.rateFlag_refer{ background: transparent url("../images/icons/error.png") no-repeat left top; }
+.rateMsgList li.rateFlag_ineligible{ background: transparent url("../images/icons/exclamation.png") no-repeat left top; }
+.rateMsgList li.rateFlag_fail{ background: transparent url("../images/icons/flag_red.png") no-repeat left top; }
+
+.rateMsgBody{
+	background-color: #ffffff;
+}
+.rateMsgBody li{
+	color: #333333;
+	font-family: Trebuchet MS, Trebuchet, serif;
+}
+#ratemessages h4{
+	font-weight: bold;
+}

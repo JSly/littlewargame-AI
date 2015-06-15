@@ -1,0 +1,28 @@
+#agencyLabel{
+	float:left;
+	padding-right: 5px;
+}
+#producerLabel{
+	float:left;
+	padding-right: 5px;
+}
+#producerField{
+	float:left;
+	width: 60%;
+	padding-left: 10px;
+}
+#agencyProducerFilterOptionsSection SELECT{
+	margin: 10px;
+}
+#agencyIDField{
+	margin-top: 10px;
+	padding-top: 10px;
+}
+#newList{
+	float:left;
+	padding-top: 5px;
+	width: 100%;
+}
+#agencyProducerFilterSection{
+	padding-top: 10px;
+}

@@ -1,0 +1,140 @@
+/*Form changes ASW style*/
+.cc_LightPanel > div > div > div > .cc-bubble-mc {
+    background: none repeat scroll 0 0 #ffffff;
+}   
+
+.cc_LightPanel > div > .cc-bubble-ml, .cc_LightPanel > div > div > .cc-bubble-mr {
+    background: url("") repeat-y scroll 0 0 transparent;}
+
+.cc_LightPanel > div > div > .cc-bubble-mr {
+    background-position-x: right;  
+}
+
+.cc_LightPanel > div > div > div > div > .cc-bubble-body {
+    background: none repeat scroll 0 0 transparent;
+}
+.cc_LightPanel > div > .cc-bubble-bl {display: none;
+    background: url("") no-repeat scroll 0 bottom transparent; 
+}
+.cc_LightPanel > div > div > .cc-bubble-br {display: none;
+    background: url("") no-repeat scroll right bottom transparent;  
+}
+.cc_LightPanel > div > div > div > .cc-bubble-bc {display: none;
+    background: url("") repeat-x scroll 0 bottom transparent;  
+}
+.cc_LightPanel > div > div > .cc-bubble-tc {display: none;
+    background: url("") repeat-x scroll 0 bottom transparent; 
+    height: auto;
+    min-height: 15px;
+}
+.cc_LightPanel > .cc-bubble-tl, .cc_LightPanel > div > .cc-bubble-tr {display: none;
+    background: url("") no-repeat scroll left bottom transparent;
+}
+.cc_LightPanel > div > .cc-bubble-tr {
+    background-position-x: right;
+}
+.cc_LightPanel > div > div > .cc-bubble-tc {background: transparent url(../images/cc/LightPanel/cc-t.png) repeat-x 0 bottom;}
+.cc_LightPanel > div > div > .cc-bubble-br {background: transparent url(../images/cc/LightPanel/cc-br.png) no-repeat right bottom;}
+
+.cc-bubble-bc {font-size: 1px;}
+.cc-bubble-tl {background: transparent url(../images/cc/LightPanel/cc-tl.png) no-repeat left bottom;}
+.cc-bubble-tr {background: transparent url(../images/cc/LightPanel/cc-tr.png) no-repeat right bottom;}
+.cc-bubble-tc {background: transparent url(../images/cc/LightPanel/cc-t.png) repeat-x 0 bottom;}
+.cc-bubble-ml {background: transparent url(../images/cc/LightPanel/cc-l.png) repeat-y 0 0;}
+.cc-bubble-mr {background: transparent url(../images/cc/LightPanel/cc-r.png) repeat-y right 0;}
+.cc-bubble-bl {background: transparent url(../images/cc/LightPanel/cc-bl.png) no-repeat 0 bottom;}
+.cc-bubble-br {background: transparent url(../images/cc/LightPanel/cc-br.png) no-repeat right bottom;}
+.cc-bubble-bc {background: transparent url(../images/cc/LightPanel/cc-b.png) repeat-x 0 bottom;}
+.cc-bubble-mc {background: #fff;}
+.cc-bubble-bwrap, .cc-bubble-body {background: transparent;}
+.cc-bubble-title > span{font-weight: bold;}
+
+.cc_GrayPanel > .cc-bubble-tl {background: transparent url(../images/cc/GrayPanel/cc-tl.png) no-repeat 0 0;}
+.cc_GrayPanel > div > .cc-bubble-tr {background: transparent url(../images/cc/GrayPanel/cc-tr.png) no-repeat right top;}
+.cc_GrayPanel > div > div > .cc-bubble-tc {background: transparent url(../images/cc/GrayPanel/cc-t.png) repeat-x 0 0;}
+.cc_GrayPanel > div > .cc-bubble-ml {background: transparent url(../images/cc/GrayPanel/cc-l.png) repeat-y 0 0;}
+.cc_GrayPanel > div > div > .cc-bubble-mr {background: transparent url(../images/cc/GrayPanel/cc-r.png) repeat-y right 0;}
+.cc_GrayPanel > div > div > div > .cc-bubble-mc {background: #fff;}
+.cc_GrayPanel > div > .cc-bubble-bl {background: transparent url(../images/cc/GrayPanel/cc-bl.png) no-repeat 0 bottom;}
+.cc_GrayPanel > div > div > .cc-bubble-br {background: transparent url(../images/cc/GrayPanel/cc-br.png) no-repeat right bottom;}
+.cc_GrayPanel > div > div > div > .cc-bubble-bc {background: transparent url(../images/cc/GrayPanel/cc-b.png) repeat-x 0 bottom;}
+.cc_BluePanel > .cc-bubble-tl {background: transparent url(../images/cc/BluePanel/cc-tl.png) no-repeat 0 0;}
+.cc_BluePanel > div > .cc-bubble-tr {background: transparent url(../images/cc/BluePanel/cc-tr.png) no-repeat right top;}
+.cc_BluePanel > div > .cc-bubble-ml {background: transparent url(../images/cc/BluePanel/cc-l.png) repeat-y 0 0;}
+.cc_BluePanel > div > div > .cc-bubble-mr {background: transparent url(../images/cc/BluePanel/cc-r.png) repeat-y right 0;}
+.cc_BluePanel > div > div > div > .cc-bubble-mc {background: #DFE8F6;}
+.cc_BluePanel > div > .cc-bubble-bl {background: transparent url(../images/cc/BluePanel/cc-bl.png) no-repeat 0 bottom;}
+.cc_BluePanel > div > div > .cc-bubble-br {background: transparent url(../images/cc/BluePanel/cc-br.png) no-repeat right bottom;}
+.cc_BluePanel > div > div > div > .cc-bubble-bc {background: transparent url(../images/cc/BluePanel/cc-b.png) repeat-x 0 bottom;}
+.cc_BlackBorder > .cc-bubble-tl {background: transparent url(../images/cc/BlackBorder/cc-tl.png) no-repeat 0 0;}
+.cc_BlackBorder > div > .cc-bubble-tr {background: transparent url(../images/cc/BlackBorder/cc-tr.png) no-repeat right top;}
+.cc_BlackBorder > div > div > .cc-bubble-tc {background: transparent url(../images/cc/BlackBorder/cc-t.png) repeat-x 0 0;}
+.cc_BlackBorder > div > .cc-bubble-ml {background: transparent url(../images/cc/BlackBorder/cc-l.png) repeat-y 0 0;}
+.cc_BlackBorder > div > div > .cc-bubble-mr {background: transparent url(../images/cc/BlackBorder/cc-r.png) repeat-y right 0;}
+.cc_BlackBorder > div > div > div > .cc-bubble-mc {background: #fff;}
+.cc_BlackBorder > div > .cc-bubble-bl {background: transparent url(../images/cc/BlackBorder/cc-bl.png) no-repeat 0 bottom;}
+.cc_BlackBorder > div > div > .cc-bubble-br {background: transparent url(../images/cc/BlackBorder/cc-br.png) no-repeat right bottom;}
+.cc_BlackBorder > div > div > div > .cc-bubble-bc {background: transparent url(../images/cc/BlackBorder/cc-b.png) repeat-x 0 bottom;}
+.cc_MinimalLightGray > .cc-bubble-tl {background: transparent url(../images/cc/MinimalLightGray/cc-tl.png) no-repeat left top;}
+.cc_MinimalLightGray > div > .cc-bubble-tr {background: transparent url(../images/cc/MinimalLightGray/cc-tr.png) no-repeat right top;}
+.cc_MinimalLightGray > div > div > .cc-bubble-tc {background: transparent url(../images/cc/MinimalLightGray/cc-t.png) repeat-x 0 top;}
+.cc_MinimalLightGray > div > div > div > .cc-bubble-title > span {font-weight: bold;}
+.cc_MinimalLightGray > div > .cc-bubble-ml {background: transparent url(../images/cc/MinimalLightGray/cc-l.png) repeat-y 0 0;}
+.cc_MinimalLightGray > div > div > .cc-bubble-mr {background: transparent url(../images/cc/MinimalLightGray/cc-r.png) repeat-y right 0;}
+.cc_MinimalLightGray > div > div > div > .cc-bubble-mc {background: #F8F8F8;}
+.cc_MinimalLightGray > div > .cc-bubble-bl {background: transparent url(../images/cc/MinimalLightGray/cc-bl.png) no-repeat 0 bottom;}
+.cc_MinimalLightGray > div > div > .cc-bubble-br {background: transparent url(../images/cc/MinimalLightGray/cc-br.png) no-repeat right bottom;}
+.cc_MinimalLightGray > div > div > div > .cc-bubble-bc {background: transparent url(../images/cc/MinimalLightGray/cc-b.png) repeat-x 0 bottom;}
+.cc_MinimalLightGrayReduced > .cc-bubble-tl {background: transparent url(../images/cc/MinimalLightGray/cc-tl.png) no-repeat left top;}
+.cc_MinimalLightGrayReduced > div > .cc-bubble-tr {background: transparent url(../images/cc/MinimalLightGray/cc-tr.png) no-repeat right top;}
+.cc_MinimalLightGrayReduced > div > div > .cc-bubble-tc {background: transparent url(../images/cc/MinimalLightGray/cc-t.png) repeat-x 0 top;}
+.cc_MinimalLightGrayReduced > div > .cc-bubble-ml {background: transparent url(../images/cc/MinimalLightGray/cc-l.png) repeat-y 0 0;}
+.cc_MinimalLightGrayReduced > div > div > .cc-bubble-mr {background: transparent url(../images/cc/MinimalLightGray/cc-r.png) repeat-y right 0;}
+.cc_MinimalLightGrayReduced > div > div > div > .cc-bubble-mc {background: #F8F8F8;}
+.cc_MinimalLightGrayReduced > div > .cc-bubble-bl {background: transparent url(../images/cc/MinimalLightGray/cc-bl.png) no-repeat 0 bottom;}
+.cc_MinimalLightGrayReduced > div > div > .cc-bubble-br {background: transparent url(../images/cc/MinimalLightGray/cc-br.png) no-repeat right bottom;}
+.cc_MinimalLightGrayReduced > div > div > div > .cc-bubble-bc {background: transparent url(../images/cc/MinimalLightGray/cc-b.png) repeat-x 0 bottom;}
+.cc_MinimalWhite > .cc-bubble-tl {background: transparent url(../images/cc/MinimalWhite/cc-tl.png) no-repeat left top;}
+.cc_MinimalWhite > div > .cc-bubble-tr {background: transparent url(../images/cc/MinimalWhite/cc-tr.png) no-repeat right top;}
+.cc_MinimalWhite > div > div > .cc-bubble-tc {background: transparent url(../images/cc/MinimalWhite/cc-t.png) repeat-x 0 top; }
+.cc_MinimalWhite > div > .cc-bubble-ml {background: transparent url(../images/cc/MinimalWhite/cc-l.png) repeat-y 0 0;}
+.cc_MinimalWhite > div > div > .cc-bubble-mr {background: transparent url(../images/cc/MinimalWhite/cc-r.png) repeat-y right 0;}
+.cc_MinimalWhite > div > div > div > .cc-bubble-mc {background: #fff;}
+.cc_MinimalWhite > div > .cc-bubble-bl {background: transparent url(../images/cc/MinimalWhite/cc-bl.png) no-repeat 0 bottom;}
+.cc_MinimalWhite > div > div > .cc-bubble-br {background: transparent url(../images/cc/MinimalWhite/cc-br.png) no-repeat right bottom;}
+.cc_MinimalWhite > div > div > div > .cc-bubble-bc {background: transparent url(../images/cc/MinimalWhite/cc-b.png) repeat-x 0 bottom;}
+.cc_PlainWhite > .cc-bubble-tl {background: transparent url(../images/cc/PlainWhite/cc-tl.png) no-repeat left bottom;}
+.cc_PlainWhite > div > .cc-bubble-tr {background: transparent url(../images/cc/PlainWhite/cc-tr.png) no-repeat right bottom;}
+.cc_PlainWhite > div > div > .cc-bubble-tc {background: transparent url(../images/cc/PlainWhite/cc-t.png) repeat-x 0 bottom;}
+.cc_PlainWhite > div > .cc-bubble-ml {background: transparent url(../images/cc/PlainWhite/cc-l.png) repeat-y 0 0;}
+.cc_PlainWhite > div > div > .cc-bubble-mr {background: transparent url(../images/cc/PlainWhite/cc-r.png) repeat-y right 0;}
+.cc_PlainWhite > div > div > div > .cc-bubble-mc {background: #fff;}
+.cc_PlainWhite > div > .cc-bubble-bl {background: transparent url(../images/cc/PlainWhite/cc-bl.png) no-repeat 0 bottom;}
+.cc_PlainWhite > div > div > .cc-bubble-br {background: transparent url(../images/cc/PlainWhite/cc-br.png) no-repeat right bottom;}
+.cc_PlainWhite > div > div > div > .cc-bubble-bc {background: transparent url(../images/cc/PlainWhite/cc-b.png) repeat-x 0 bottom;}
+.cc_WhiteRounded > .cc-bubble-tl {background: transparent url(../images/cc/WhiteRounded/cc-tl.png) no-repeat left bottom;}
+.cc_WhiteRounded > div > .cc-bubble-tr {background: transparent url(../images/cc/WhiteRounded/cc-tr.png) no-repeat right bottom;}
+.cc_WhiteRounded > div > div > .cc-bubble-tc {background: transparent url(../images/cc/WhiteRounded/cc-t.png) repeat-x 0 bottom;}
+.cc_WhiteRounded > div > .cc-bubble-ml {background: transparent url(../images/cc/WhiteRounded/cc-l.png) repeat-y 0 0;}
+.cc_WhiteRounded > div > div > .cc-bubble-mr {background: transparent url(../images/cc/WhiteRounded/cc-r.png) repeat-y right 0;}
+.cc_WhiteRounded > div > div > div > .cc-bubble-mc {background: #fff;}
+.cc_WhiteRounded > div > .cc-bubble-bl {background: transparent url(../images/cc/WhiteRounded/cc-bl.png) no-repeat 0 bottom;}
+.cc_WhiteRounded > div > div > .cc-bubble-br {background: transparent url(../images/cc/WhiteRounded/cc-br.png) no-repeat right bottom;}
+.cc_WhiteRounded > div > div > div > .cc-bubble-bc {background: transparent url(../images/cc/WhiteRounded/cc-b.png) repeat-x 0 bottom;}
+.cc_PopoutContainer > .cc-bubble-tl {background: transparent url(../images/cc/PopoutContainer/cc-tl.png) no-repeat left bottom;}
+.cc_PopoutContainer > div > .cc-bubble-tr {background: transparent url(../images/cc/PopoutContainer/cc-tr.png) no-repeat right bottom;}
+.cc_PopoutContainer > div > div > .cc-bubble-tc {background: transparent url(../images/cc/PopoutContainer/cc-t.png) repeat-x 0 bottom;}
+.cc_PopoutContainer > div > .cc-bubble-ml {background: transparent url(../images/cc/PopoutContainer/cc-l.png) repeat-y 0 0;}
+.cc_PopoutContainer > div > div > .cc-bubble-mr {background: transparent url(../images/cc/PopoutContainer/cc-r.png) repeat-y right 0;}
+.cc_PopoutContainer > div > div > div > .cc-bubble-mc {background: #fff;}
+.cc_PopoutContainer > div > .cc-bubble-bl {background: transparent url(../images/cc/PopoutContainer/cc-bl.png) no-repeat 0 bottom;}
+.cc_PopoutContainer > div > div > .cc-bubble-br {background: transparent url(../images/cc/PopoutContainer/cc-br.png) no-repeat right bottom;}
+.cc_PopoutContainer > div > div > div > .cc-bubble-bc {background: transparent url(../images/cc/PopoutContainer/cc-b.png) repeat-x 0 bottom;}
+.cc_PopoutContainerLeft > .cc-bubble-tl {background: transparent url(../images/cc/PopoutContainerLeft/cc-tl.png) no-repeat left top;}
+.cc_PopoutContainerLeft > div > .cc-bubble-tr {background: transparent url(../images/cc/PopoutContainerLeft/cc-tr.png) no-repeat right top;}
+.cc_PopoutContainerLeft > div > .cc-bubble-ml {background: transparent url(../images/cc/PopoutContainerLeft/cc-l.png) repeat-y 0 0;}
+.cc_PopoutContainerLeft > div > div > .cc-bubble-mr {background: transparent url(../images/cc/PopoutContainerLeft/cc-r.png) repeat-y right 0;}
+.cc_PopoutContainerLeft > div > div > div > .cc-bubble-mc {background: #fff;}
+.cc_PopoutContainerLeft > div > .cc-bubble-bl {background: transparent url(../images/cc/PopoutContainerLeft/cc-bl.png) no-repeat 0 bottom;}
+.cc_PopoutContainerLeft > div > div > .cc-bubble-br {background: transparent url(../images/cc/PopoutContainerLeft/cc-br.png) no-repeat right bottom;}
+.cc_PopoutContainerLeft > div > div > div > .cc-bubble-bc {background: transparent url(../images/cc/PopoutContainerLeft/cc-b.png) repeat-x 0 bottom;}

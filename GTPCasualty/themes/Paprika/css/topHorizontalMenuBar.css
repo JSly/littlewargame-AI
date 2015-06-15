@@ -1,0 +1,76 @@
+#actiongroup {
+	overflow: hidden;
+	float: left;
+	width: 100%;
+	background: #DBDBDB;
+	border-top: 1px bevel #2E2E2E;
+	border-bottom: 1px bevel #2E2E2E;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	min-height: 29px;
+	left: 0px;
+	top: 45px;
+}
+
+#actiongroup ul{
+	margin: 0;
+	padding: 0;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+}
+#actiongroup ul > li {
+	height: 25px;
+	display: inline;
+	list-style: none;
+	float: left;
+	border: 2px solid #DBDBDB;
+	border-right: 1px groove #DBDBDB;
+	text-align: center;
+	cursor: pointer;
+	overflow: visible;
+	padding-right: 5px;
+	padding-left: 3px;
+}
+
+.ext-ie #actiongroup ul > li {
+	border-right: 2px groove #DBDBDB;
+	padding-right: 5px;
+}
+
+.ext-gecko #actiongroup ul > li {
+	border-right: 2px groove #DBDBDB;
+	padding-right: 4.2px;
+}
+#actiongroup ul li a {
+	float: left;
+	color: #4C4C4C;
+	text-decoration: none;
+	line-height: 25px;
+	font-family: arial, helvetica,sans-serif;	
+	padding: 0px 10px;
+	white-space: normal;
+}
+
+#actiongroup li.active {
+	filter: none \ ;  /* turn off filters in IE9 to avoid the IE9 bug */
+}
+
+#actiongroup li.active a {
+	background: #FFFFFF;
+	border: 1px solid #4C4C4C;
+	line-height: 23px;
+}
+
+#actiongroup li:hover {
+	background: -webkit-linear-gradient(top, #FFFFFF 0%, #C0C0C0 100%); /* Chrome10+,Safari5.1+ */
+	background: -ms-linear-gradient(top,  #FFFFFF 0%,#C0C0C0 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #FFFFFF 0%,#C0C0C0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#C0C0C0'); /* for IE */
+}
+#actiongroup li:hover a span{
+	text-decoration: none;
+}
+

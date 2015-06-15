@@ -1,0 +1,81 @@
+.downFormLabel{width: 20%}
+.downFormField{width: 75%}
+#searchFilterActions{clear:both;}
+.searchSubHeading{
+	font-weight:bold;
+}
+.searchForGroup{
+	margin:10px 0px 20px 0px;
+}
+.searchForGroup .searchSubHeading{
+	margin-bottom:3px;
+}
+
+.searchForFields label{
+	margin-right:10px;
+}
+
+#pagePart_searchConstraints{
+	width:100%;
+	overflow:hidden;
+}
+
+#searchFilterTable{
+	/* table-layout:fixed; */
+}
+#searchFilterSection{
+	width:100%;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+#searchFilterTable .g-btn{
+	width:18px;
+}
+
+#searchFilterTable .searchTable{
+	padding-right:15px;
+}
+
+.searchByCaption{
+	font-weight:bold;
+	margin:3px 0px;
+	width:110px;
+	float:left;
+}
+.searchByFieldBuilder{
+	margin:3px 0px;
+	width:600px;
+	float:left;
+}
+.searchByFieldBuilder select{
+	margin-right:3px;
+}
+#searchHistoryGroup, #showDeletedGroup{
+	float:left;
+	clear:both;
+	margin-top: 5px;
+	padding-left: 110px;
+}
+#showDeletedField{
+	float:left;
+	clear:both;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.searchInGroup{
+	float:left;
+	clear:left;
+	padding-top: 10px;
+}
+.searchSubHeading{
+	float:left;
+	margin:3px 0px;
+	width:110px;
+}
+.searchInFieldGroup{
+	float:left;
+}
+#searchHistory_captionText, #showDeleted_captionText{
+	float:left;
+	padding-top:3px;
+}

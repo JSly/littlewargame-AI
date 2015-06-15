@@ -1,0 +1,63 @@
+.pageFooter, #footer, #footer_one {
+	width: 100%;
+	text-align: left;
+	margin-top: 0px;
+	color: #B2B19F;
+	background: #4c4c4c;
+	float: left;
+	border: none;
+}
+.pageFooter {
+	background: url('../images/brand_logo.png') no-repeat scroll bottom right transparent;
+	padding-top: 8px;
+}
+.pageFooter p {
+	margin-bottom: 15px;
+}
+.pageFooter .buttonClear_bottomLeft {
+	padding: 0;
+	margin-left: 1%;
+}
+.pageFooter .clear_bottomLeft{
+  padding: 0;
+	margin-top: -5px;
+	padding-top: -10px;
+	clear: right;
+	margin-left: 10px;
+}
+.pageFooter .buttonClear_bottomRight {
+	padding-right: 0;
+	margin-right: 1%;
+	padding-top: 0px;
+}
+.pageFooter .buttonClear_bottomRight p {
+	text-align: right;
+}
+#footer_one {
+	padding-top: 0px;
+	min-height: 0px;
+	margin-bottom: 10px;
+	border-width: 0;
+}
+#footer_one a:link, #footer_one a:visited, #footer_one a:active {
+  color: #4065af;
+	font: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 11px;
+}
+#footer_one ul li:hover a span {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+#footer_one ul li a span{
+	color: #FFFFFF;
+}
+#footer_one #fLogOut {
+	display: none;
+}
+.contentAreaBottom {
+  background: inherit;
+  height: auto;
+}
+#footer {
+	min-height: 90px;
+}

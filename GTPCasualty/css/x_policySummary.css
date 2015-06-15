@@ -1,0 +1,36 @@
+/* Import navigation */
+@import url(x_accountSummary.css);
+
+#policySections{
+	float: left;
+	clear: both;
+	width:100%;
+}
+#policyHeaderDetail{
+	float: left;
+	clear: both;
+  margin-bottom: 10px;
+}
+#nextInstallment, #futurePolicyTermRenewal{
+	width: 228px;
+	float: left;
+}
+#nextInstallment{
+	margin: 0px 15px 0px 15px;
+}
+
+#policyTermExtendedData{
+	float: left;
+	clear: both;
+	width:100%;
+	margin: 10px 0 0 0;
+}
+
+#futurePolicyTermRenewal table, #nextInstallment table, #policyHeaderDetail table, #policyTermExtendedData table{
+	width: 100%;
+	border: 1px #999999 solid;
+}
+#policyTermExtendedData .displayTableTitle td{
+	background: #525552;
+	text-indent: 0px;
+}

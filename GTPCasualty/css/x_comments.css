@@ -1,0 +1,35 @@
+#commentsFilter .controlContainer {
+	float:none;
+	padding-bottom:5px;
+}
+div#_viewInternalOnly
+{ 
+	padding: 3px; 
+	border-top:1px solid #d0d0d0;
+	width:100%;
+	background: #f4f4f4;
+}
+div#_commentView 
+{
+	padding:5px;
+	word-wrap:break-word  !important;	
+}
+/* IE7 double margin fix */
+input#_internalOnly
+{
+	margin-top: 0px !important;
+}
+div#_creationInfo
+{ 
+	padding: 3px; 
+	border-top:1px solid #d0d0d0;
+	width:100%;
+	background: #f4f4f4;
+}
+div#_objectStatus
+{ 
+	padding: 3px; 
+	border-top:1px solid #d0d0d0;
+	width:100%;
+	background: #f4f4f4;
+}

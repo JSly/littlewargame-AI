@@ -1,0 +1,124 @@
+/* Special Action buttons (e.g. New Quote) */ 
+#specialactions {
+	width: auto;
+	height: 36px;
+	background: inherit;
+	min-height: 29px;
+	top: 5px;
+	float: right;
+	margin-right: 300px;
+}
+#specialactions a {
+	float: right;
+	padding: 0px 10px;
+    color: #FFFFFF;
+	height: 33px;
+	width: auto;
+	border: 1px solid #2e2e2e;
+	text-shadow: none;
+	border-radius: 4px;
+    margin-right: 10px;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY5Njk2OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0ZTRlNGUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -webkit-linear-gradient(top, #696969 0%, #4e4e4e 100%); /* Chrome10+,Safari5.1+ */
+	background: -ms-linear-gradient(top,  #696969 0%, #4e4e4e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #696969 0%, #4e4e4e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#696969', endColorstr='#4e4e4e'); /* for IE */
+	-moz-box-shadow: 0px 0px 0.25px 1px #777777;
+	-webkit-box-shadow: 0px 0px 0.25px 1px #777777;
+	box-shadow: 0px 0px 0.25px 1px #777777;
+}
+.specialActionLeft, .specialActionMiddle, .specialActionRight {
+	background-image: none;
+	background-color: transparent;
+	height: auto;
+	width: auto;
+}
+.specialActionMiddle {
+    padding-top: 7px;
+}
+.specialActionsCaption {
+    font-size: 15px;
+    overflow: visible;
+}
+#specialactions a img {
+  display: none;
+}
+#specialactions a span {
+    display: block;
+    float: left;
+}
+#specialactions a:hover,
+#specialactions a:focus  {
+	background: #cfcfcf;
+	color: #515151;
+	text-decoration: none;
+	filter: none;
+}
+#relatedActions li, #logonActions li {
+    background: url("../images/list_bg.gif") repeat-x scroll left transparent;
+    padding: 0px 0 3px 0px;
+}
+#relatedActions a, #logonActions a {
+    color: #000000;
+	font: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;	
+}
+#relatedActions li:hover, #logonActions li:hover {
+    background: url("../images/list_bg_hover.gif") repeat-x scroll left  transparent;
+}
+#relatedActions a, #logonActions a {
+    color: #000000;
+    text-decoration: none;
+}
+#relatedActions:hover a, #logonActions:hover a {
+    color: #000000;
+}
+#relatedActions ul, #logonActions ul {
+    margin-left: 0px;
+}
+.g-pageAction{
+	float: right;
+	clear: both;
+	display:none;
+	margin: 10px 0px 10px 0px;	
+}
+.g-pageAction #previous{
+	float: left
+}
+.g-pageAction #next{
+	float: left
+}
+.g-actionAcross{
+	float: left;
+}
+.g-groupAction{
+	float: left;
+	margin: 0px 0px 10px 0px;	
+}
+.g-action{
+	float: left;
+	margin: 10px 0px 10px 0px;	
+}
+.acrossLayout > .g-action{
+	margin: 0px 0px 0px 0px; /* these guys are probably in a row of fields */
+}
+.acrossLayout > .g-action-caption-above{
+	margin: 13px 0px 0px 0px; /* these guys are probably in a row of fields */
+}
+td > .g-action{
+	margin: 0px 0px 0px 0px; /* these guys are probably in a row of fields */
+}
+.action{
+	list-style: none;
+	float: left;
+	clear: none;
+	margin: 10px 0px 10px 0px;
+}
+.gridAction IMG{
+	padding: 0px 3px 0px 3px;
+}
+/* changed left padding on pricing page for "previous" button to give breathing room in panel*/
+.g-pageAction #previous {
+  float: left;
+  padding-left: 3px;
+}

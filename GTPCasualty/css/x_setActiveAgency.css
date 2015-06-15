@@ -1,0 +1,15 @@
+#leftPanelArea
+{
+    width: 100px;
+}
+#setActiveAgency{
+	float:left;
+}
+#setActiveAgency select{
+	float:left;
+	clear:both;
+}
+#setActiveAgency ul{
+	float:left;
+	clear:both;
+}

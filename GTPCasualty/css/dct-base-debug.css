@@ -1,0 +1,1524 @@
+/*!
+ * Accenture Duck Creek Base JavaScript and CSS
+ */
+/*!
+ * Ext JS Library 3.3.0
+ * Copyright(c) 2006-2010 Ext JS, Inc.
+ * licensing@extjs.com
+ * http://www.extjs.com/license
+ */
+ 
+/*******************************
+* ExtJs Class Extension Styles 
+********************************/
+ 
+/**
+ * GridFilters Styles
+ **/
+
+
+/* Temporary Patch for Bug ??? */
+.x-menu-list-item-indent .x-menu-item-icon {
+	position: relative;
+	top: 3px;
+	left: 3px;
+	margin-right: 10px;
+}
+li.x-menu-list-item-indent {
+	padding-left: 0px;
+}
+li.x-menu-list-item div {
+	display: block;
+}
+/**
+* column tree styles 
+**/
+.x-column-tree .x-panel-header {
+	padding: 3px 0px 0px 0px;
+	border-bottom-width: 0px;
+}
+
+.x-column-tree .x-panel-header .x-panel-header-text {
+	margin-left: 3px
+}
+
+.x-column-tree .x-tree-node {
+	zoom: 1;
+}
+.x-column-tree .x-tree-node-el {
+	zoom: 1;
+}
+
+.x-column-tree  .x-tree-node a {
+	line-height: 18px;
+	vertical-align: middle;
+}
+.x-column-tree  .x-tree-node a span{
+}
+
+.x-tree-col {
+	float: left;
+	overflow: hidden;
+	padding: 0 1px;
+	zoom: 1;
+}
+
+.x-tree-col-text, .x-tree-hd-text {
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	padding: 3px 3px 3px 5px;
+	white-space: nowrap;
+}
+.x-tree-headers {
+	margin-top: 3px;
+	cursor: default;
+	zoom: 1;
+}
+.x-tree-hd {
+	float: left;
+	overflow: hidden;
+}
+.grid-checkbox-editor .x-form-check-wrap {
+	text-align: center;
+}
+
+.x-form-check-wrap, .x-form-radio-wrap {
+	padding: 1px 0 3px;
+	line-height: 18px;
+}
+.ext-ie .x-form-check-wrap, .ext-ie .x-form-radio-wrap {
+	padding-top: 3px;
+}
+.ext-strict .ext-ie7 .x-form-check-wrap, .ext-strict .ext-ie7 .x-form-radio-wrap {
+	padding-bottom: 1px;
+}
+.x-form-check-wrap-inner, .x-form-radio-wrap-inner {
+	display: inline;
+	padding: 0;
+}
+.x-form-check, .x-form-radio {
+	vertical-align: bottom;
+	margin: 2px 0;
+}
+.ext-ie .x-form-check, .ext-ie .x-form-radio {
+	margin-top: 1px;
+}
+.ext-strict .ext-ie7 .x-form-check, .ext-strict .ext-ie7 .x-form-radio {
+	margin-bottom: 4px;
+}
+.ext-opera .x-form-check, .ext-opera .x-form-radio { 
+	margin-top: 3px;
+}
+.x-form-check-focus .x-form-check, .x-form-check-over .x-form-check, .x-form-check-focus .x-form-radio, .x-form-check-over .x-form-radio {
+	background-position: -13px 0;
+}
+.x-form-check-down .x-form-check, .x-form-check-down .x-form-radio {
+	background-position: -26px 0;
+}
+.x-item-disabled .x-form-check, .x-item-disabled .x-form-radio {
+	background-position: -39px 0;
+}
+.x-form-check-checked, .x-form-radio-checked {
+	background-position: 0 -13px;
+}
+.x-form-check-focus .x-form-check-checked, .x-form-check-over .x-form-check-checked, .x-form-check-focus .x-form-radio-checked, .x-form-check-over .x-form-radio-checked {
+	background-position: -13px -13px;
+}
+.x-form-check-down .x-form-check-checked, .x-form-check-down .x-form-radio-checked {
+	background-position: -26px -13px;
+}
+.x-item-disabled .x-form-check-checked, .x-item-disabled .x-form-radio-checked {
+	background-position: -39px -13px;
+}
+.x-form-check-wrap-inner input, .x-form-radio-wrap-inner input {
+	position: absolute;
+	-ms-filter: "alpha(opacity=0)";
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	opacity: 0;
+}
+.booleanInterviewColumnRender-outer{
+	width: 100%; 
+	text-align: center;
+}
+.sliderRange {}
+.sliderRangeTicks {
+	position: relative;
+	left: 0;
+	top: -4px;
+	padding-bottom: 25px;
+}
+.sliderTick {
+	position: absolute;
+	text-align: center;
+	padding-top: 8px;
+	vertical-align: bottom;
+	white-space: normal;
+}
+/*
+ * FileUploadField component styles
+ */
+.x-form-file-wrap {
+	position: relative;
+}
+.x-form-file-wrap .x-form-file {
+	position: absolute;
+	right: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	z-index: 2;
+	height: 22px;
+}
+.x-form-file-wrap .x-form-file-btn {
+	position: absolute;
+	right: 0;
+	z-index: 1;
+}
+.x-form-file-wrap .x-form-file-text {
+	position: absolute;
+	left: 0;
+	z-index: 3;
+	color: #777;
+}
+/* Grids */
+.x-grid-panel {
+	margin-bottom: 10px;
+}
+.x-grid3-row-expanded .x-grid3-row-body {
+	padding: 3px 3px 3px 5px;
+} 
+.x-grid3-row {
+	cursor: default;
+	padding-top: 3px;
+	padding-bottom: 3px;
+} 
+.x-panel-bbar .x-toolbar {
+	position: relative;
+}
+.x-panel-bbar .xtb-text {
+	padding: 2px;
+}
+.x-grid-group-hd div {
+	padding: 4px 4px 4px 17px;
+}
+.x-grid-group-hd {
+	cursor: pointer;
+	padding-top: 6px;
+}
+div.x-menu-item .x-menu-item-icon {
+	position: relative;
+}
+/* IE 8 DatePicker fix */
+.x-layer[style] {
+	width: auto !important;
+}
+#taskQueue .noItems, #notifications .noItems, #mruList .noItems, #reportList .noItems, #accountList .noItems {
+	padding-left: 9px;
+}
+#newQuoteModule .action {
+	margin: 10px 0px 0px 20px;
+}
+#moduleDisplayTable {
+	width: 100%;
+}
+#moduleDisplayTable TD {
+	padding: 5px 3px 5px 0px;
+}
+#moduleDisplayTable .tblItem .itemIcon {
+	width: 16px;
+	height: 16px;
+}
+.x-form-check-group .x-form-check-wrap, .x-form-radio-group .x-form-radio-wrap {
+	height: auto;
+}
+.ext-ie .x-form-check-group .x-form-check-wrap, .ext-ie .x-form-radio-group .x-form-radio-wrap {
+	height: auto;
+}
+.x-form-check, .x-form-radio {
+	height: 13px;
+	width: 13px;
+}
+.x-tree-hd {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #d0d0d0;
+}
+.x-form-file-wrap {
+	height: 22px;
+}
+/* prevent wrapping under the yellow icon in popup warnings */
+.displayedAlertMsg .ext-mb-content {
+	margin: 0px 0px 0px 44px;
+} 
+
+p .documentationTitle{
+	line-height: 24px;
+}
+.iWinSection { margin-bottom: 10px; }
+.iWinGroup{
+	width: 100%;
+	overflow: hidden;
+	padding: 4px 0px;
+}
+.i-paramName{
+	float: left;
+	clear: left;
+	width: 150px;
+}
+.i-paramVal{
+	float: left;
+	width: 350px;
+}
+.iWinRightSection .i-paramName { width: 100px; }
+.iWinRightSection .i-paramVal { width: 150px; }
+.cutoffSection { margin-bottom: 10px; }
+.cutoffGroup{
+	overflow: hidden;
+	padding: 4px 0px;
+	width: 100%;
+}
+.cutoff-paramName{
+	float: left;
+	clear: left;
+	width: 100px;
+}
+.cutoff-paramVal{
+	width: 150px;
+	float: left;
+}
+.OFlowIndicators{
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	display: hidden;
+	position: absolute;
+}
+.OFlowContent{
+	position: absolute;
+	display: hidden;
+}
+.OFlowCutoff{
+	position: absolute;
+	display: hidden;
+}
+#DCTDeveloperToolbarContainer { height: 26px; }
+
+#actiongroup {
+	position: absolute;
+	top: 65px;
+	left: 20px;
+	height: 29px;
+}
+#actiongroup ul{
+	float: left;
+}
+#actiongroup li {
+	float: left;
+	padding: 0px 0px 0px 15px;
+	font-size: 12px;
+	white-space: nowrap;
+}
+#actiongroup li a {
+	float: left;
+	display: block;
+	padding: 10px 17px 7px 0px;
+	text-decoration: none;
+}
+#actiongroup li:hover a span{
+	text-decoration: underline;
+}
+#mainactions img {
+	float: left;
+	margin-right: 6px;
+	cursor: pointer;
+}
+#mainactions .mainActionsCaption{
+	display: block;
+	float: left;
+	margin-top: 1px;
+	cursor: pointer;
+}
+#footer{
+	width: 100%;
+	min-height: 50px;
+	overflow: hidden;
+}
+#footer_one{
+	width: 200px;
+	min-height: 40px;
+	overflow: hidden;
+	padding: 10px;
+}
+#footer_one ul{
+	display: block;
+	float: left;
+}
+#footer_one ul li{
+	display: block;
+	float: left;
+	clear: both;
+	margin: 1px 0px;
+}
+#footer_one ul li a{
+	text-decoration: none;
+}
+#footer_one ul li a img{
+	float: left;
+	margin-right: 6px;
+	cursor: pointer;
+}
+#footer_one ul li a span{
+	display: block;
+	float: left;
+	cursor: pointer;
+	text-decoration: none;
+}
+#footer_one ul li:hover a span{
+	text-decoration: underline;
+}
+
+﻿/* button setup */
+.g-btn-bar {float: left; clear: both;}
+.g-btn-bar > div {float: left;}
+.g-btn{ overflow: hidden; margin-right: 10px; height: 24px;}
+.g-btn > a{ overflow: hidden; float: left; text-decoration: none; height: 24px;}
+.g-btn-l{ float: left; height: 24px; cursor: pointer; width: 7px; }
+.g-btn-m{ float: left; height: 24px; cursor: pointer; }
+.g-btn-r{ float: left; height: 24px; cursor: pointer; width: 7px; }
+.g-btn-img-left{ float: left; padding: 4px 4px 0px 0px; }
+.g-btn-img-right{ padding: 4px 0px 0px 4px; }
+.g-btn-text{ height: 16px;}
+
+
+.g-pageAction{
+	float: left;
+	clear: both;
+	margin: 10px 0px 10px 0px;	
+}
+.g-pageAction #previous{
+	float: left
+}
+.g-pageAction #next{
+	float: left
+}
+.g-actionAcross{
+	float: left;
+}
+.g-groupAction{
+	float: left;
+	margin: 10px 0px 10px 0px;	
+}
+.g-action{
+	float: left;
+	margin: 10px 0px 10px 0px;	
+}
+.acrossLayout > .g-action{
+	margin: 0px 0px 0px 0px; /* these guys are probably in a row of fields */
+}
+.acrossLayout > .g-action-caption-above{
+	margin: 15px 0px 0px 0px; /* these guys are probably in a row of fields */
+}
+td > .g-action{
+	margin: 0px 0px 0px 0px; /* these guys are probably in a row of fields */
+}
+.action{
+	list-style: none;
+	float: left;
+	clear: none;
+	margin: 10px 0px 10px 0px;
+}
+.btnPadTop{ /*Add some top margin to buttons that are to the right of across forms*/
+	margin-top: 23px;
+}
+.btnDisabled{
+	filter: alpha(opacity=20);
+	opacity: 0.2;
+}
+.btnDisabled a{
+	cursor: default;
+}
+.btnClearBoth{
+	clear: both;
+}
+.gridAction IMG{
+	padding: 0px 3px 0px 3px;
+}
+.g-loneIcon{ margin-right: 2px;}
+.dct_pty .g-loneIcon{ margin-top: 12px;}
+
+.g-loneIcon .g-btn-l{ display: none; }
+.g-loneIcon .g-btn-m{ padding-top: 4px; }
+.g-loneIcon .g-btn-r{ display: none; }
+
+.g-hyperlink .g-btn-l{ display: none; }
+.g-hyperlink .g-btn-r{ display: none; }
+.g-loneIcon .g-btn-m{ height: 16px;}
+.g-closeIcon .g-btn-m{ width: 18px; height: 18px !important;}
+.g-closeIcon:hover .g-btn-m{ width: 18px; height: 18px !important;}
+
+
+/* This is the default button type */
+
+.g-standard .g-btn-l{ background-position: 0px 0px; }
+.g-standard .g-btn-m{ background-position: 0px -24px; }
+.g-standard .g-btn-r{ background-position: 0px -48px; }
+.g-cancel .g-btn-l{ background-position: 0px -216px; }
+.g-cancel .g-btn-m{ background-position: 0px -240px; }
+.g-cancel .g-btn-r{ background-position: 0px -264px; }
+.g-closeIcon { margin-right: 0px;}
+.g-closeIcon .g-btn-l{ display: none; }
+.g-closeIcon .g-btn-r{ display: none; }
+.g-search .g-btn-l{ background-position: 0px -360px; }
+.g-search .g-btn-m{ background-position: 0px -384px; }
+.g-search .g-btn-r{ background-position: 0px -408px; }
+
+
+
+/* Button Styles by Color */
+
+
+.g-green .g-btn-l{ background-position: 0px 0px; }
+.g-green .g-btn-m{ background-position: 0px -24px; }
+.g-green .g-btn-r{ background-position: 0px -48px; }
+
+
+.g-white .g-btn-l{ background-position: 0px -72px; }
+.g-white .g-btn-m{ background-position: 0px -96px; }
+.g-white .g-btn-r{ background-position: 0px -120px; }
+
+
+.g-black .g-btn-l{ background-position: 0px -144px; }
+.g-black .g-btn-m{ background-position: 0px -168px; }
+.g-black .g-btn-r{ background-position: 0px -192px; }
+
+
+.g-gray .g-btn-l{ background-position: 0px -216px; }
+.g-gray .g-btn-m{ background-position: 0px -240px; }
+.g-gray .g-btn-r{ background-position: 0px -264px; }
+
+
+.g-transparent .g-btn-l{ background-position: 0px -288px; }
+.g-transparent .g-btn-m{ background-position: 0px -312px; }
+.g-transparent .g-btn-r{ background-position: 0px -336px; }
+.g-transparent { margin-right: 0px;}
+
+
+.g-blue .g-btn-l{ background-position: 0px -360px; }
+.g-blue .g-btn-m{ background-position: 0px -384px; }
+.g-blue .g-btn-r{ background-position: 0px -408px; }
+
+.g-lightBlue .g-btn-text{ padding-top: 4px;}
+.g-lightBlue .g-btn-img-left{ padding-top: 3px; }
+.g-lightBlue .g-btn-img-right{ padding-top: 3px; }
+.g-lightBlue .g-btn-l{ background-position: 0px -432px; }
+.g-lightBlue .g-btn-m{ background-position: 0px -456px; }
+.g-lightBlue .g-btn-r{ background-position: 0px -480px; }
+
+.g-lightGreen .g-btn-text{ padding-top: 4px;}
+.g-lightGreen .g-btn-img-left{ padding-top: 3px; }
+.g-lightGreen .g-btn-img-right{ padding-top: 3px; }
+.g-lightGreen .g-btn-l{ background-position: 0px -504px; }
+.g-lightGreen .g-btn-m{ background-position: 0px -528px; }
+.g-lightGreen .g-btn-r{ background-position: 0px -552px; }
+
+.g-orange .g-btn-text{ padding-top: 4px;}
+.g-orange .g-btn-img-left{ padding-top: 3px; }
+.g-orange .g-btn-img-right{ padding-top: 3px; }
+.g-orange .g-btn-l{ background-position: 0px -576px; }
+.g-orange .g-btn-m{ background-position: 0px -600px; }
+.g-orange .g-btn-r{ background-position: 0px -624px; }
+
+.g-red .g-btn-text{ padding-top: 4px;}
+.g-red .g-btn-img-left{ padding-top: 3px; }
+.g-red .g-btn-img-right{ padding-top: 3px; }
+.g-red .g-btn-l{ background-position: 0px -648px; }
+.g-red .g-btn-m{ background-position: 0px -672px; }
+.g-red .g-btn-r{ background-position: 0px -696px; }
+.hyperlink, .hyperlink li, .hyperlink li a{
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+.hyperlink li a{
+	text-decoration: underline;
+}
+a:hover{
+	text-decoration: none;
+}
+/* Reset definitions not included in Ext's version. */
+table {
+	border-spacing: 0; border-collapse: collapse;
+}
+html{
+	overflow-y: scroll; /* [kellyke] always show scrollbars to prevent the 'jump' when the page changes length */
+}
+
+#body{
+	width: 100%;
+	overflow: hidden;
+}
+#wrapper{ /* Set the page width */
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+#innerheader{
+	width: 100%;
+	overflow: hidden;
+}
+#innerfooter{
+	width: 100%;
+	overflow: hidden;
+}
+#formContent{
+	margin: 0px 0px 15px 0px;
+	width: 100%;
+	overflow: hidden;
+}
+/* The next 3 styles define the page title and instructions at the top of each page */
+#pageTop{ /* The surrounding div */
+	width: 100%;
+    overflow: hidden;
+}
+
+#pageInst{ /* The instructional text */
+	line-height: 1.6em;
+}
+.instItems{ /* Use for individual div's defined inside the instruction to allow for spacing */
+	padding: 2px;
+}
+.textAlignedRight{
+	text-align: right;
+}
+.textAlignedCenter{
+	text-align: center;
+}
+#fields{
+	width: 100%;
+	overflow: hidden;
+}
+.styleWithPanels, .styleWithOutPanels {
+	float: left;
+}
+.hideOffset{
+	position: absolute;
+	top: -10000px;
+	left: -10000px;
+}
+#banner { /* Banner div */
+	position: relative;
+	margin-bottom: 10px;
+}
+#loadingMask{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 19000;
+	left: 0;
+	top: 0;
+	-moz-opacity: 0.0;
+	opacity: 0.0;
+	filter: alpha(opacity=0);
+}
+#loadingMessage{
+	width: 37px;
+	height: 37px;
+	padding: 13px 0px 0px 13px;
+}
+#loadingMessage #loadingText{
+	margin-left: 65px;
+	display: none;
+}
+#productNavigationDiv{
+	position: absolute;
+	top: 5px;
+	left: 210px;
+	width: 390px;
+}
+#productNavigationDiv a{
+	float: left;
+}
+#productNavigationDiv a{
+	padding: 0px 0px 0px 20px;
+	margin: 0px 20px 0px 0px;
+	height: 16px;
+	text-decoration: none;
+}
+#productNavigationDiv a:hover{
+	text-decoration: underline;
+}
+#specialactions{
+	position: absolute;
+	top: 35px;
+	right: 10px;
+	height: 24px;
+}
+#specialactions a{
+	height: 24px;
+	float: left;
+	margin-right: 5px;
+	text-decoration: none;
+}
+.specialActionLeft, .specialActionMiddle, .specialActionRight {
+	cursor: pointer;
+}
+.specialActionLeft{
+	width: 5px;
+	height: 24px;
+	float: left;
+}
+.specialActionMiddle{
+	padding: 4px 3px 0px 3px;
+	height: 20px;
+	float: left;
+}
+.specialActionRight{
+	width: 5px;
+	height: 24px;
+	float: left;
+}
+#specialactions a img{
+	float: left;
+	margin-right: 3px;
+}
+#specialactions a span{
+	display: block;
+	float: left;
+}
+#activeAccount{
+	width: 100%;
+	overflow: hidden;
+}
+#activeAccountNameId{
+	margin: 12px 3px 0px 30px;
+}
+#activeAccountReferenceId{
+	margin: 2px 3px 2px 30px;
+}
+#activeAccountStatusId{
+	margin: 2px 3px 2px 30px;
+}
+#buildChangePasswordDialog, #batchProcessJobList, #mainBody{
+	width: 745px;
+}
+#batchProcessJobList{
+	float: left;
+}
+#batchJobList{
+	width: 100%;
+}
+#batchJobList{
+	float: left;
+}
+#agencyProducerFilterOptionsSection div #agencyField{
+	float: left;
+	margin-right: 5px;
+}
+.ratingToolBar{
+	position: fixed;
+	left: auto;
+	top: auto;
+	right: 30px;
+	bottom: 0px;
+	display: table;
+}
+.ratingToolBar > table{
+	width: auto;
+}
+#ratemessages{
+	width: 100%;
+	overflow: hidden;
+}
+
+#justMessages li{
+	padding-left: 26px;
+	padding-top: 0px;
+	margin: 10px 5px;
+}
+.rateMsgBody{
+	padding: 10px;
+}
+.rateMsgBody li{
+	padding-left: 26px;
+	padding-top: 0px;
+	margin: 15px 5px;
+}
+.externalModule-leftPanel{
+	margin: 10px 0px;
+	width: 100%;
+	overflow: hidden;
+}
+.errorsPage #main{
+	width: 100%;
+}
+.errorsPage .externalModule-leftPanel{
+	display: none;
+}
+/* Policy Paging Grids */
+#paging { width: 100%}
+#supportIcons{ /* Supporting icon navigation */
+	height: 23px;
+	position: relative;
+	left: 650px;
+	top: -20px;
+}
+#currentSystemDate{	
+	padding: 5px 0px 4px 20px;
+	width: 600px;
+	overflow: hidden;
+	clear: both;
+}
+#balanceChartId {
+	float: left;
+}
+#agencyChangeReceivableContact{
+	margin: 7px 3px 5px 7px;
+}
+#agencyReceivableContactId, #agencyReceivableContactMainPhone, #agencyReceivableContactFaxPhone, #agencyReceivableContactEmailAgency{
+	margin: 2px 3px 2px 10px;
+}
+#accountInformationArea, #policyInformationArea{
+	width: 100%;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+}
+.billingContact{
+	padding: 3px 0px 5px 0px;
+}
+.billingContactName, .billingContactAddress,.billingContactCityStateZip, .billingContactPhone, .billingChangeRole, .billingContactEmail{
+	padding: 2px 0px 2px 0px;
+}
+.scheduleHistoryEventLink{
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+.billingActivityList{
+	clear: both;
+}
+#messageNote{
+	width: 524px;
+	height: 23px;
+	font-size: .9em;
+	color: #000000;
+	font-style: italic;
+	padding: 11px 0px 0px 30px;
+	margin: 15px 0px 5px 0px;
+	background: url(../images/messageNoteBk.png) no-repeat left top;
+}
+#displayTotalAmount, #displayTotalTextId, #displayTotalRemAmount, #displayTotalRemainingTextId{
+	float: left;
+	margin-right: 5px;
+}
+#displayTotalRemainingTextId{
+	padding-right: 15px;
+	
+}
+.instText{
+	margin: 10px 0px;
+	padding: 10px 10px 8px 23px;
+	float: left;
+	clear: both;
+}
+.depositedBatchList{
+	clear: both; 
+	padding-top: 10px;
+}
+#accountPolicyNameGroup {
+	padding-top: 0px;
+}
+#accountPolicyNameGroup .downBeforeFormLabel{
+	width: 200px;
+}
+#batchPaymentActionButtons { padding-top: 20px; float: left; width: 100%;}
+#paymentOptionsUnidentified { float: left; clear: left; }
+#disbursementActions { padding-top: 20px; }
+#transferPolicy{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#vieweditPolicyTermSettings{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#updateRenewalInformation{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#holdBillingPolicyTerm{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#rescindPolicy{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#updateReference { clear: left; }
+/* Search payment field placement */
+#paymentSearchTbl{
+	width: 100%;
+	margin: 10px 0px 0px 0px;
+}
+#paymentSearchTbl td{
+	padding-bottom: 10px;
+}
+#startDt{
+	float: left;
+	width: 155px;
+}
+#dateRangeTo{
+	float: left;
+	width: 30px;
+}
+#endDt{
+	float: left;
+	width: 20%;
+}
+#startAmt{
+	float: left;
+	width: 155px;
+}
+#amtRangeTo{
+	float: left;
+	width: 30px;
+}
+#endAmt{
+	float: left;
+	width: 20%;
+}
+#exactDt{
+	float: left;
+	clear: both;
+}
+#dateRangeFieldGroup{
+	float: left;
+	clear: both;
+}
+#exactAmt{
+	float: left;
+	clear: both;
+}
+#amtRangeFieldGroup{
+	float: left;
+	clear: both;
+}
+/* Agency bill items */
+.billingAgencyDetailsReference, .billingAgencyDetailsAddress, .billingAgencyDetailsCityStateZip, .billingAgencyDetailsPhone{
+	width: 128px;
+	padding: 2px 0px 2px 5px;
+}
+#scheduledItemsList, #openItemsList, #closedMatchesList { clear: left; }
+#openItemDateLabel{
+	float: left;
+	clear: none;
+	width: 200px;
+	margin-top: 5px;
+}
+#openItemsDateField{
+	float: left;
+	clear: none;
+	width: 120px;
+}
+#filterActionGroup{
+	float: left;
+	clear: left;
+	margin-bottom: 5px;
+}
+#statementRangeLabel{
+	float: left;
+	clear: none;
+	width: 210px;
+	margin-top: 15px;
+}
+#statementRangeField{
+	float: left;
+	clear: none;
+	width: 200px;
+	margin-top: 10px;
+}
+#agencyReferenceId{
+	font-size: 1em;
+	color: #525552;
+	margin: 2px 3px 3px 45px;
+}
+.ledgerGroupLabel { margin-left: 5px; }
+
+#commentDescription { margin-top: 10px; }
+#closedMatchesDateLabel{
+	float: left;
+	clear: none;
+	width: 230px;
+	margin-top: 5px;
+}
+#closedItemMatchesFromDateField{
+	float: left;
+	clear: none;
+	width: 135px;
+}
+#closedItemMatchThroughLabelId{
+	float: left;
+	clear: none;
+	width: 45px;
+	margin-top: 5px;
+}
+#closedItemMatchesThroughDateField{
+	float: left;
+	clear: none;
+	width: 135px;
+}
+#backToPolicySummarySection { margin-top: 10px; }
+#promiseToPayListGroup{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#displayChartGroup{
+	width : 100%;
+	margin-bottom: 15px;
+}
+.displayChartItem{
+	float: left;
+	clear: none;
+	width : 23%;
+}
+#moreOptionsGroupPanel{
+	float: left;
+	clear: both;
+}
+#currentInvoiceGroup { float: left; clear: both;}
+#currentDueGroup {float: left; clear: both;}
+#accountBalanceGroup {float: left; clear: both;}
+#otherAmountGroup {float: left; clear: both;}
+#refundToCheckGroup {float: left; clear: both;}
+#refundToEFTGroup {float: left; clear: both;}
+#suspenseActionButton {float: left; clear: both;}
+#manuallyAllocateCheckbox {float: left; clear: both; margin-top: 20px; margin-bottom: 20px;}
+#paymentAction {float: left; clear: both;}
+#paymentDetails {float: left; clear: both; width: 100%}
+#radioOptionOutput{
+	padding-left: 3px;
+	padding-top: 10px;
+}
+#accountPolicyReferenceId{
+	float: left;
+	clear: left;
+	padding-top: 10px;
+}
+#paymentReferenceGroup{
+	float: left;
+	clear: left;
+}
+#selectAnotherAccount{
+	margin: 10px 0px;
+}
+#placeOnHoldGroup{
+	float: left;
+	clear: left;
+}
+#writeOffSuspenseActionId{
+	float: left;
+	margin-bottom: 5px;
+}
+#writeOffButtons {
+	padding: 10px 0;
+}
+#reversalOfWriteOffWaiveActionButtons{
+	clear: left;
+}
+#resumeOptionsRadiobuttons {
+	padding-bottom: 20px;
+	width: 100%;
+}
+#billingInstallmentScheduleId{
+	float: left;
+	width: 100%;
+}
+#otherAmountInput{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	float: left;
+	clear: both;
+}
+.AccountReceivableAllocation_body .x-grid3-header {
+	display:none
+}
+.InvoiceReceivableAllocation_body .x-grid3-header {
+	display:none
+}
+h1, h2{
+	width: 100%;
+	margin: 10px 0px;
+}
+h2 .sectionCaptionIcon{
+	float: left;
+	margin-right: 5px;
+}
+p {
+	margin: 10px 0px 10px 0px;
+}
+#quickSearch{
+	position: absolute;
+	right: 10px;
+	font-size: .85em;
+}
+#quickSearchLabel{
+	width: 75px;
+	float: left;
+	padding-top: 3px;
+}
+#searchLabel{
+	width: 60px;
+	float: left;
+	padding-top: 3px;
+}
+#searchIsLabel{
+	width: 12px;
+	float: left;
+	padding-left: 3px;
+	padding-top: 3px;
+}
+#searchUsingLabel{
+	width: 35px;
+	float: left;
+	padding-left: 3px;
+	padding-top: 3px;
+}
+#quickSearch #id_quickSearch{
+	position: relative;
+	top: 4px;
+}
+.notificationDiv{
+	clear: both;
+	margin-bottom: 15px;
+	padding: 10px 0px 0px 0px;
+	
+}
+.notificationIcon{
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin: 1px 5px 0px 0px;
+}
+.InformationDiv{
+	padding: 0px 10px 10px 10px;
+	line-height: 1.5em;
+}
+.notificationDiv A{
+	text-decoration: underline;
+}
+.toggleHeader{
+	margin: 10px 0px 5px 0px;
+	padding: 0px 0px 0px 0px;
+	clear: both;
+	height: 25px;
+	cursor: pointer;
+	width: 100%;
+}
+.toggleHeaderPopup{
+	margin: 10px 0px 5px 0px;
+	padding: 0px 10px 0px 0px;
+	clear: both;
+	height: 25px;
+	cursor: pointer;
+}
+.toggleHeaderInner{
+	margin-left: 10px;
+	height: 19px;
+	padding: 5px 0px 2px 0px;
+}
+.toggleHeaderNoHover{
+	margin: 5px 0px 5px 0px;
+	padding: 1px 0px 3px 0px;
+	clear: both;
+}
+.truncateWithDots{
+	width: 100%;
+}
+div.truncateWithDots > span{
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+}
+label.truncateWithDots{
+	min-height: 18px;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+}
+TD>.truncateWithDots {
+	width: inherit;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+}
+/* icon classes moved to themes/[theme name]/theme.css *//*defaults*/
+.cc-bubble{ width: 100%; float: left; background: transparent;}
+.cc-bubble-tl { padding-left: 17px; zoom: 1;}
+.cc-bubble-tr { padding-right: 17px; zoom: 1;}
+.cc-bubble-tc { padding-top: 0px;}
+.cc-bubble-title{ background: transparent; padding-top: 14px; overflow: hidden;}
+.cc-bubble-ml { padding-left: 17px; zoom: 1;}
+.cc-bubble-mr { padding-right: 17px; zoom: 1;}
+.cc-bubble-mc { overflow: hidden;}
+.cc-bubble-bl { padding-left: 17px; zoom: 1;}
+.cc-bubble-br { padding-right: 17px; zoom: 1;}
+.cc-bubble-bc { overflow: hidden; line-height: 1px; height: 25px;}
+.cc-bubble-bwrap { overflow: hidden; zoom: 1;}
+.cc-bubble-body { overflow: hidden; margin: 10px;}
+#innerrightpanel .cc-bubble-body{ margin: 0px;}
+.cc-bubble-title{}
+.cc-bubble-tc { height: 40px;}
+
+
+/*custom containers*/
+.cc_LightPanel > div > div > div > .cc-bubble-title{ padding-top: 0px; padding-bottom: 12px;}
+.cc_LightPanel > div > div > .cc-bubble-tc { height: auto; min-height: 15px;}
+.cc_BlackBorder > div > div > div > .cc-bubble-title { padding-top: 0px; padding-bottom: 12px;}
+.cc_BlackBorder > div > div > div > .cc-bubble-title > span {font-weight: bold;}
+.cc_MinimalLightGray > div > div > div > .cc-bubble-title { padding-top: 0px; padding-bottom: 12px;}
+.cc_MinimalLightGray > div > .cc-bubble-ml { padding-left: 10px; zoom: 1;}
+.cc_MinimalLightGray > div > div > .cc-bubble-mr { padding-right: 10px; zoom: 1;}
+.cc_MinimalLightGray > div > div > .cc-bubble-tc { height: 15px;}
+.cc_MinimalLightGrayReduced > div > div > div > .cc-bubble-title { padding-top: 1px; padding-bottom: 0px;}
+.cc_MinimalLightGrayReduced > div > div > .cc-bubble-mr { padding-right: 4px; zoom: 1;}
+.cc_MinimalLightGrayReduced > div > div > .cc-bubble-tc { height: 1px;}
+.cc_MinimalWhite > div > div > div > .cc-bubble-title { padding-top: 0px; padding-bottom: 12px;}
+.cc_MinimalWhite > div > div > .cc-bubble-mr { padding-right: 10px; zoom: 1;}
+.cc_MinimalWhite > div > div > .cc-bubble-tc { height: 15px;}
+.cc_PlainWhite > div > div > div > .cc-bubble-title { padding-top: 0px; padding-bottom: 12px;}
+.cc_PlainWhite > div > div > .cc-bubble-tc { height: 15px;}
+.cc_WhiteRounded > div > div > div > .cc-bubble-title { padding-top: 0px; padding-bottom: 12px;}
+.cc_WhiteRounded > div > .cc-bubble-ml { padding-left: 10px; zoom: 1;}
+.cc_WhiteRounded > div > div > .cc-bubble-mr { padding-right: 10px; zoom: 1;}
+.cc_WhiteRounded > div > div > .cc-bubble-tc { height: 15px;}
+.cc_PopoutContainer > div > div > div > .cc-bubble-title { padding-top: 0px; padding-bottom: 12px;}
+.cc_PopoutContainer > div > .cc-bubble-ml { padding-left: 10px; zoom: 1;}
+.cc_PopoutContainer > div > div > .cc-bubble-mr { padding-right: 10px; zoom: 1;}
+.cc_PopoutContainer > .cc-bubble-tl { padding-left: 75px;}
+.cc_PopoutContainer > div > div > .cc-bubble-tc { height: 30px;}
+.cc_PopoutContainer > div > div > div > div > .cc-bubble-body { margin-top: 0px;}
+.cc_PopoutContainerLeft > div > div > div > .cc-bubble-title { padding-top: 0px; padding-bottom: 12px;}
+.cc_PopoutContainerLeft > div > .cc-bubble-ml {zoom: 1;}
+.cc_PopoutContainerLeft > div > div > .cc-bubble-mr { padding-right: 10px; zoom: 1;}
+.cc_PopoutContainerLeft > .cc-bubble-tl { padding-left: 25px; height: 35px;}
+.cc_PopoutContainerLeft > div > div > .cc-bubble-tc { height: 35px; padding-top: 10px;}
+.cc_PopoutContainerLeft > div > div > div > div > .cc-bubble-body { margin: 0px 10px 5px 10px;}
+.cc_PopoutContainerLeft > div > .cc-bubble-bl { padding-left: 25px;}
+.acrossLayout > .x-form-element, .downLayout > .x-form-element {
+	padding-left: 0px;
+	position: relative;
+}
+.acrossLayout { overflow: hidden; min-height: 24px; padding: 2px 0px; }
+.acrossLayout > div.acrossLayout { min-height: auto; padding: 0px 0px; }
+.acrossLayout > div { float: left; margin-right: 10px; }
+.acrossFieldGroup > div { float: left; padding: 2px 0px; }
+.acrossFieldGroup > .acrossBeforeFormLabel { float: left; padding: 2px 5px 2px 0px; }
+.acrossFieldGroup > .acrossAboveFormLabel { padding: 0px 0px; }
+.acrossBeforeFormLabel > label { display: block; float: left; padding-top: 2px; }
+.acrossFormField > div { float: left; }
+.acrossFormField > div > span{ padding-top: 2px; display: block; float: left; }
+.acrossFormField > label > input { padding-top: 2px; }
+.acrossFormField > label > span { padding-top: 2px; display: block; float: left; }
+.acrossFormField > div > input { padding: 1px 3px 0px 3px; height: 18px;}
+.acrossAboveFormLabel + .acrossFormField { clear: left; }
+
+.ext-strict .ext-ie8 .acrossFormField .x-form-display-field,
+.ext-ie .acrossFormField .x-form-display-field, /*ie9*/
+.ext-gecko .acrossFormField .x-form-display-field /*FF*/{ padding-top: 2px; }
+
+.downLayout { overflow: hidden;  width: 100%; min-height: 28px;}
+.downLayout > .acrossLayout { width: 100%; }
+.downLayout > .downFieldGroup { overflow: hidden; clear: left; padding: 2px 0px; width: 100%; min-height: 22px;}
+.downLayout > .downFormField { float: left; }
+.downFormLabel { float: left; padding: 3px 5px 3px 0px; width: 30%; }
+.downBeforeFormLabel { float: left; padding: 3px 5px 3px 0px; width: 30%; }
+.downBeforeFormLabel > label { display: block; float: left; }
+.downAboveFormLabel + .downFormField{ clear: left;}
+.downFieldGroup > div { float: left; padding-left: 0px;}
+
+.downFormField > div { float: left; }
+
+.downFormField > label > .controlContainer > input { margin-right: 2px; margin-top: 2px;}
+.downFormField > div > input { padding: 1px 3px 0px 3px; height: 18px;}
+.downFormField > div > span { padding-top: 3px; display: block; float: left; }
+.toggleHeader + script + .downLayout { clear: left; }
+
+.downFormField .controlContainer .x-form-display-field, /*chrome*/
+.ext-strict .ext-ie8 .downFormField .x-form-display-field,
+.ext-ie .downFormField .x-form-display-field, /*ie9*/
+.ext-gecko .downFormField .x-form-display-field /*FF*/ { padding-top: 3px; }
+
+
+.controlContainer{ float: left; }
+
+.ext-ie .controlContainer .x-form-radio{ margin-top: 2px; }
+.controlContainer .x-form-check-wrap { float: left; padding-right: 3px; padding-top: 0px; padding-bottom: 1px;}
+.ext-ie .controlContainer .x-form-check-wrap input { width: 13px; height: 13px; }
+/*Standard form element table styles*/
+.formTbl{
+	margin: 10px 0px 0px 0px;
+	width: 100%;
+}
+.formTbl td{
+	padding-bottom: 10px;
+}
+
+/*Standard data table styles*/
+
+.displayTbl{
+	width: 100%;
+}
+.displayTblTitle{
+	padding: 6px 0px 6px 6px;
+	clear: both;
+}
+.displayTblHdr td{
+	padding: 5px;
+}
+.displayTblRow td{
+	padding: 5px;
+}
+.displayTblFooter{
+	min-height: 12px;
+	padding: 6px;
+	text-align: left;
+	margin: 0px 0px 10px 0px;
+}
+.formTable th{
+	padding: 2px 5px 2px 0px;
+}
+.formTable td{
+	padding: 2px 0px 2px 0px;
+	vertical-align: top;
+}
+.formTable{
+	width: auto;
+	clear: both;
+}
+.required > .controlContainer .x-form-field-wrap{
+	float: left;
+}
+.required > .x-form-field-wrap{
+	float: left;
+}
+.widgetAffectedVal { margin-left: 15px; text-align: right;}
+.widgetComboCaption {float: left; clear: both; width: 50%}
+.widgetComboAffectedVal { margin-left: 15px; text-align: right; padding-right:20px}
+
+.radioItemComparison{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	min-height: 18px;
+}
+.optSpecialContainer {
+	padding-right: 10px;
+}
+.optSpecialRadio {
+	overflow: hidden;
+	min-height: 18px;
+}
+.uneditable{}
+
+/* Left Menu Positioning Rules */
+.ruleset_leftNav #leftPanelAreaBody{
+	width: 100%;
+	overflow: hidden;
+}
+.ruleset_leftNav #fields.styleWithOutPanels { width: 745px; }
+.ruleset_leftNav #fields.styleWithPanels { width: 510px; }
+
+.ruleset_leftNav #leftPanelArea{
+	width: 200px;
+	margin: 0px 15px 0px 0px;
+	float: left;
+}
+.ruleset_leftNav #main{ /* Page contents after the banner */
+	width: 745px;
+	float: left;
+}
+.ruleset_leftNav #pageNav ul, .ruleset_leftNav #subactiongroup ul{
+	margin-left: 5px;
+	float: left;
+}
+.ruleset_leftNav #pageNav>ul>li, .ruleset_leftNav #subactiongroup>ul>li{
+	width: 190px;
+	float: left;
+	clear: both;
+	margin: 0px 0px 0px 0px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.ruleset_leftNav #pageNav>ul>li>a{
+	width: 150px;
+}
+.ruleset_leftNav #pageNav>ul>li>a, .ruleset_leftNav #subactiongroup>ul>li>a{
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+.ruleset_leftNav #pageNav li a, .ruleset_leftNav #subactiongroup li a{
+	display: block;
+	padding-right: 5px;
+	padding-left: 20px;
+	text-decoration: none;
+}
+.ruleset_leftNav #billingActiveSection, .ruleset_leftNav #policyActiveSection, .ruleset_leftNav #billingAgencyActiveSection{
+	width: 200px;
+	min-height: 65px;
+	margin: 0px 0px 10px 0px;
+}
+.ruleset_leftNav #relatedActions{
+	width: 200px;
+	overflow: hidden;
+	margin: 20px 0px 0px 0px;
+}
+.ruleset_leftNav #logonActions{
+	background: url("../images/moduleLoginOptionsBk.png") no-repeat left top;
+}
+.ruleset_leftNav #relatedActionsTitle, .ruleset_leftNav #logonActionsTitle{
+	margin: 12px 0px 0px 30px;
+}
+.ruleset_leftNav #relatedActions ul, .ruleset_leftNav #logonActions ul{
+	margin: 10px 0px 10px 8px;
+}
+.ruleset_leftNav #relatedActions li, .ruleset_leftNav #logonActions li{
+	padding: 1px 0px 3px 17px;
+	line-height: 1.4em;
+}
+.ruleset_leftNav #relatedActions li:hover, .ruleset_leftNav #logonActions li:hover{
+	background: url("../images/icons/bullet_blue.png") no-repeat left top;
+}
+.ruleset_leftNav #relatedActions a, .ruleset_leftNav #logonActions a{
+	text-decoration: none;
+}
+
+/* New quote widget */
+.ruleset_leftNav #consumerNewQuoteWidget{
+	width: 200px;
+	margin: 20px 0px 0px 0px;
+	padding: 0px 0px 0px 10px;
+}
+.ruleset_leftNav #consumerNewQuoteWidget .ruleset_leftNav #consumerNewQuoteWidgetTitle{
+	margin: 10px 0px 10px 0px;
+	color: #558ed5;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.ruleset_leftNav #consumerNewLOB{
+	float: left;
+	clear: both;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	
+}
+.ruleset_leftNav #consumerNewQuoteButton{
+	float: left;
+	clear: both;
+}
+.ruleset_leftNav #consumerQuoteType{
+	float: left;
+	clear: both;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+/* Top Menu Positioning Rules */
+.ruleset_topNav #leftPanelAreaBody{
+	width: 100%;
+	overflow: hidden;
+}
+.ruleset_topNav #fields.styleWithOutPanels { width: 960px; }
+.ruleset_topNav #fields.styleWithPanels { width: 725px; }
+.ruleset_topNav #leftPanelArea{
+	width: 100%;
+	overflow: hidden;
+}
+.ruleset_topNav #main{
+	width: 100%;
+}
+.ruleset_topNav #pageNav, .ruleset_topNav #subactiongroup{
+	width: 100%;
+	float: left;
+}
+.ruleset_topNav #subactiongroup ul{
+	margin: 1px 0px 1px 10px;
+	float: left;
+}
+
+.ruleset_topNav #pageNav li, .ruleset_topNav #subactiongroup li{
+	float: left;
+	height: 30px;
+}
+.ruleset_topNav #pageNav li a, .ruleset_topNav #subactiongroup li a{
+	display: block;
+
+	text-decoration: none;
+}
+.ruleset_topNav #relatedActions ul { float: right; }
+.ruleset_topNav #relatedActions li { float: left; }
+.ruleset_topNav #relatedActions li a{
+	font-size: 11px;
+}
+.ruleset_topNav #leftPanelAreaBody .external-module{
+	display: none;
+}
+.ruleset_topNav #logonActions, .ruleset_topNav #billingActiveSection, .ruleset_topNav #policyActiveSection, .ruleset_topNav #relatedActionsTitle{
+	display: none;
+}
+.externalModule-leftPanel { display: none; }
+.dct_popup #wrapper, .dct_popup #mainBody, .dct_popup #fields, .dct_popup #pageAction{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.dct_popup #main{
+	width: 100%;
+	padding: 0px;
+	margin-left: 0px;
+}
+.dct_popup #pageTop{
+	margin: 0px 0px 0px 0px;
+	min-width: 300px;
+	width: 100%;
+	height: 50px;
+}
+.dct_popup #pageTop>#pageTitle{
+	width: auto;
+	height: auto;
+	margin-top: 0px;
+	height: 25px;
+	padding: 20px 5px 5px 15px;
+}
+.dct_popup #leftPanelArea, .dct_popup #information .dct_popup #documentation, .dct_popup #pageInst, .dct_popup #pageNav{
+	display: none;
+}
+.dct_popup #wrapper #formContent #main div.styleWithOutPanels{
+	width: 100%;
+	overflow: hidden;
+}
+.dct_popup #main > #fields > #body{
+	overflow: hidden;
+	margin:5px;
+}
+.dct_popup .formTable{
+	width: auto;
+}
+/* Confirm Address Popup */
+/* Payment Schedule Popup */
+/* Policy Coverages Popup */
+/* Vehicle Coverages Popup */
+.ConfirmAddress .cc-bubble-body, .PaymentSchedule .cc-bubble-body, .PolicyCoverages .cc-bubble-body, .VehicleCoverages .cc-bubble-body{
+	margin-top: 0px;
+}
+.ConfirmAddress_body #wrapper{
+	overflow: hidden;
+}
+.PaymentSchedule #main #pageTop, .PolicyCoverages #main #pageTop, .VehicleCoverages #main #pageTop {
+	height: 18px;
+}
+

@@ -1,0 +1,23 @@
+﻿#pageInst
+{
+	margin:5px 10px; 
+	display:block;
+}
+.g-btn-bar > div.floatRight 
+{
+	float:right;
+}
+.padRight
+{
+	padding-right:10px;
+}
+#importRecordToolbar 
+{
+	width:100%;
+	margin: 5px 10px;
+}
+#pageTop>#pageTitle
+{
+	padding-left:10px;
+	padding-top:5px;
+}

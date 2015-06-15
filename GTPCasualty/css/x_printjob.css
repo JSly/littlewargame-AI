@@ -1,0 +1,33 @@
+/* format the printjob list page */
+#quickNav { margin: 0px 10px 0px 10px; }
+#quickNav a { margin: 0px 10px 0px 10px; }
+#pagingSection { margin: 0px 0px 0px 0px; }
+#pagingSection .disabledAction { margin: 0px 10px 0px 10px; }
+#pagingSection a { margin: 0px 10px 0px 10px; }
+
+.printJobListItemActions{
+	vertical-align: top;
+	width: 70px;
+}
+.printJobListItemActions li{
+	vertical-align: top;
+	text-align: right;
+	padding-right: 5px;
+	float: left;
+}
+.printJobListItemActions li.hidden { visibility: hidden; }
+.printJobListItemActions li.remove { width: 23px; }
+
+.formFieldNoLabel { vertical-align: top; }
+#printJobList td{
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+}
+.inlineImage { vertical-align: -25%; }
+.collapsed { display: none; }
+#pageAdditionalActions { padding-top: 10px; }
+#toggleBulkChange { margin-right: 3px; }
+.normalWhiteSpace {white-space: normal;}
+
+#pageAdditionalActions { float: left;}
+#resetPrintJobDetaulsA { float: left; }

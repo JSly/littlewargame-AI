@@ -1,0 +1,36 @@
+.acrossLayout {
+	min-height: 24px;
+	overflow: hidden;
+	padding: 0 0;
+}
+
+/* Party Pages overrides */
+/* Done to make error icon show */
+body.dct_pty .controlContainer {
+	margin-right: 9px;
+}
+
+/* remove images that do not belong due to style standard */
+body.dct_pty .g-btn-img-left {
+	display: none;
+}
+body.dct_bil .g-btn-img-left {
+	display: none;
+}
+body.dct_pas .g-btn-img-left, body.dct_pas .g-btn-img-right {
+	display: none;
+}
+.dct_policy .acrossLayout {
+	min-height: 28px;
+}
+.Pricing_body #innerrightpanel{
+	width: 255px;
+}
+
+.Household_body .cc-bubble-body .acrossLayout>div{
+	margin-right: 20px;
+}
+
+#messageActions {
+	clear: both;
+}

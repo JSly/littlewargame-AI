@@ -1,0 +1,27 @@
+#helpTitle{
+	width:100%;
+	float:left;
+}
+#annotations{
+	width: 100%;
+	padding: 5px 0px 5px 0px;
+	float:left;
+}
+.helpGroup{
+	width: 100%;
+	padding: 2px 0px 2px 0px;
+	float:left;
+}
+.helpCaption{
+	float: left;
+	width: 30%;
+	font-weight: bold;
+}
+.helpContent{
+	float: left;
+	width: 60%;
+	margin-left:10px;
+}
+P{
+	padding: 0px 0px 10px 0px;
+}

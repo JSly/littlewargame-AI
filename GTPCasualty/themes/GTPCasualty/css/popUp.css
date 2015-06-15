@@ -1,0 +1,118 @@
+html .dct_popup { background: #F2F7FA none; }
+body .dct_popup { background: #F2F7FA none; }
+
+#dctPopupWindow .PersonalAuto_lob{
+	background-color: #e6e6e6;
+}
+.dct_popup #formContent {
+	min-height: 0px;
+}
+.dct_popup #main {
+	width: 100%;
+}
+.dct_popup #main, .dct_popup #pageTop {
+	border: none;
+	border-radius: 0px;
+	box-shadow: none;
+}
+.dct_popup div.PaymentSchedule #main > #fields > #body h2 {
+	width: auto;
+}
+.ConfirmAddress_html{
+	background: #FFFFFF;
+}
+.ConfirmAddress_body{
+	background: #FFFFFF;
+}
+/* Policy Coverages Popup */
+.dct_popup .PolicyCoverages #main #pageTop{
+  background: url("../images/page-title-bg-asw.png") repeat-x scroll left 0 transparent;
+  height: 45px;
+}
+/* Vehicle Coverages Popup */
+.dct_popup .VehicleCoverages #main #pageTop{
+  background: url("../images/page-title-bg-asw.png") repeat-x scroll left 0 transparent;
+  height: 45px;
+}
+/* Confirm Address Popup */
+.dct_popup .ConfirmAddress #main #pageTop{
+  height: 45px;
+}
+.dct_popup #pageTop{
+	margin: 0px 0px 0px 0px;
+	min-width: 300px;
+	height: 25px;
+	background: #006699;
+	width: auto;
+}
+.dct_popup #pageTop>#pageTitle{ /* The page title */
+	width: auto;
+	margin-top: 0px;
+	height: 25px;
+	padding: 3px 5px 5px 15px;
+	font-weight: bold;
+	color: white;
+}
+.dct_popup #wrapper {
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+#loadingMask{
+	background: #404040;
+}
+#loadingMessage{
+	width: 25px;
+	height: 25px;
+	padding: 6px 5px 5px 6px;
+	border: 3px solid #E0E0E0;
+	background-color: #FFFFFF;
+	border-radius: 6px;
+}
+.dct_popup .formTable{
+	width: auto;
+}
+.dct_popup .PaymentSchedule #main #pageTop{
+    background: url("../images/popupTop_blue.png") no-repeat left 0px;
+}
+.dct_popup .PaymentSchedule #main #pageTop #pageTitle{
+    display: none;
+}
+/* Alert Message Styles */
+.displayedAlertMsg .x-window-body {
+	border: 1px solid;
+	background: #F4F4F4 !important;
+	background-color: #F4F4F4;
+}
+.PaymentSchedule_body .x_PaddingLeft10{
+	padding-left: 0px;
+}
+
+.OccupancyDetail_body .formTable {
+	margin-right: 8px;
+}
+
+/*Task Management Popups*/
+#taskCreationDatePopUp .x-panel-header, 
+#taskDueDatesPopUp .x-panel-header{
+	background-image: none;
+	background-color: #006699;
+}
+
+/*Select Agency*/
+.dct_selectAgency #pageTitle {
+	background: #006699;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+/* Import Location Popup */
+.dct_popup .noPolicies #importCancel {
+	clear: left;
+	margin-top: 5px;
+	margin-bottom: 3px;
+}

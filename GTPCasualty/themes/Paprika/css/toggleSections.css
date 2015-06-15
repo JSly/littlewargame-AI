@@ -1,0 +1,38 @@
+.toggleHeader {
+	height: 25px;
+	font-weight: bold;
+	border-bottom: 0px solid #83A6D3;
+	padding-bottom: 5px;
+	width: 100%;	
+}
+.toggleHeaderInner:before {
+	content:"\2c";
+	margin-right:10px;
+	font-family:aswIcons;
+	border-right: 1px solid #FFFFFF;
+	font-size:large;
+	padding-right: 9px;
+	padding-top:5px;
+	padding-bottom: 11px;
+}
+.toggle-collapsed .toggleHeaderInner:before {
+	content:"\3e";
+}
+
+.toggleHeader .toggleHeaderInner {
+	background: #006699;
+	color: #FFFFFF;
+	height: 20px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	margin-left: 0px;
+}
+.toggleHeaderNoHover, .toggleHeaderPopup{
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #558ed5;
+	border-bottom: 0px solid #83A6D3;
+}
+.toggleDivContainer{ 
+	border: none;
+}

@@ -1,0 +1,1 @@
+Define theme(s) to load in skin.config.  Specifying the theme "GoGreen" will cause the themes/GoGreen/css/theme.css stylesheet to load.  Each theme requires a css directory with a theme.css child.  

@@ -1,0 +1,6 @@
+@import url("x_interview.css");
+
+.x_btnDisabled{
+	filter: alpha(opacity=20);
+	opacity:0.2;
+}
